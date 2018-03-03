@@ -10,11 +10,13 @@ I wanted to use social links in my portfolio, which led to a fun hunt for icons.
 So the best source of icons I found was <https://simpleicons>. They have a ton of variety, its free to download as they should be, and they are all SVG. I was making that Italian chef air kissing gesture all day in joy. Check them out.
 
 Here are some great ones:
-![Adobe Illustrator](img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/adobeillustrator.svg")
-![Angular](img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/angular.svg")
-![FreeCodeCamp](img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/freecodecamp.svg")
-![GraphQL](img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/graphql.svg")
-![Y Combinator](img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/ycombinator.svg")
+<div style="display: flex; flex-flow: row wrap; justify-content: center;">
+  <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/adobeillustrator.svg" alt="[Adobe Illustrator]" style="max-width: 500px"/>
+  <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/angular.svg" alt="[Angular]" style="max-width: 500px"/>
+  <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/freecodecamp.svg" alt="[FreeCodeCamp]" style="max-width: 500px"/>
+  <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/graphql.svg" alt="[GraphQL]" style="max-width: 500px"/>
+  <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/icons/ycombinator.svg" alt="[Y Combinator]" style="max-width: 500px"/>
+</div>
 
 There are so many of them that I think I will also use these for my about section to show things I know, and it keeps a kind of nice design language going.
 
