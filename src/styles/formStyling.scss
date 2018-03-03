@@ -7,19 +7,19 @@
 }
 
 @keyframes leftShark {
-  0% { background: #d7263d; box-shadow: 0 0 50px 70px #d7263d; opacity: 1; border-radius: 0;}
-  33% { background: #f46036; box-shadow: 0 0 150px 70px #f46036; opacity: 0.35; border-radius: 10%;}
-  50% { background: #2e294e; box-shadow: 0 0 50px 70px #2e294e; opacity: 0.6; border-radius: 14%;}
-  66% { background: #1b998b; box-shadow: 0 0 150px 70px #1b998b; opacity: 0.25; border-radius: 10%;}
-  100% { background: #c5d86d; box-shadow: 0 0 50px 70px #c5d86d; opacity: 0.95; border-radius: 0;}
+  0% { opacity: 1; }
+  20% { opacity: 0.85; }
+  50% { opacity: 0.7; }
+  80% { opacity: 0.85; }
+  100% { opacity: 1; }
 }
 
 @keyframes rightShark {
-  0% { background: #99621e; box-shadow: 0 0 50px 70px #99621e; opacity: 1; border-radius: 0;}
-  33% { background: #d38b5d; box-shadow: 0 0 150px 70px #d38b5d; opacity: 0.35; border-radius: 10%;}
-  50% { background: #f3ffb6; box-shadow: 0 0 50px 70px #f3ffb6; opacity: 0.6; border-radius: 14%;}
-  66% { background: #739e82; box-shadow: 0 0 150px 70px #739e82; opacity: 0.25; border-radius: 10%;}
-  100% { background: #2c5530; box-shadow: 0 0 50px 70px #2c5530; opacity: 0.95; border-radius: 0;}
+  0% { opacity: 1; }
+  20% { opacity: 0.85; }
+  50% { opacity: 0.7; }
+  80% { opacity: 0.85; }
+  100% { opacity: 1; }
 }
 
 .contactContainer {
