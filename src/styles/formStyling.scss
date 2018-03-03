@@ -6,12 +6,20 @@
   100% { background: rgba(#ff0, 0.92); box-shadow: 0 0 6px 1px #aa0; color: #000;}
 }
 
-@keyframes grower {
-  0% { background: #F00; box-shadow: 0 0 50px 70px #F00; opacity: 1; margin: 10px; border-radius: 0;}
-  33% { background: #0F0; box-shadow: 0 0 150px 70px #0F0; opacity: 0.35; margin: 10px; border-radius: 10%;}
-  50% { background: #0FF; box-shadow: 0 0 50px 70px #0FF; opacity: 0.6; margin: 20px; border-radius: 20%;}
-  66% { background: #00F; box-shadow: 0 0 150px 70px #00F; opacity: 0.25; margin: 10px; border-radius: 10%;}
-  100% { background: #F00; box-shadow: 0 0 50px 70px #F00; opacity: 0.95; margin: 10px; border-radius: 0;}
+@keyframes leftShark {
+  0% { background: #d7263d; box-shadow: 0 0 50px 70px #d7263d; opacity: 1; border-radius: 0;}
+  33% { background: #f46036; box-shadow: 0 0 150px 70px #f46036; opacity: 0.35; border-radius: 10%;}
+  50% { background: #2e294e; box-shadow: 0 0 50px 70px #2e294e; opacity: 0.6; border-radius: 14%;}
+  66% { background: #1b998b; box-shadow: 0 0 150px 70px #1b998b; opacity: 0.25; border-radius: 10%;}
+  100% { background: #c5d86d; box-shadow: 0 0 50px 70px #c5d86d; opacity: 0.95; border-radius: 0;}
+}
+
+@keyframes rightShark {
+  0% { background: #99621e; box-shadow: 0 0 50px 70px #99621e; opacity: 1; border-radius: 0;}
+  33% { background: #d38b5d; box-shadow: 0 0 150px 70px #d38b5d; opacity: 0.35; border-radius: 10%;}
+  50% { background: #f3ffb6; box-shadow: 0 0 50px 70px #f3ffb6; opacity: 0.6; border-radius: 14%;}
+  66% { background: #739e82; box-shadow: 0 0 150px 70px #739e82; opacity: 0.25; border-radius: 10%;}
+  100% { background: #2c5530; box-shadow: 0 0 50px 70px #2c5530; opacity: 0.95; border-radius: 0;}
 }
 
 .contactContainer {
@@ -95,28 +103,54 @@
 
     .imageContainer {
       display: block;
-      grid-column: 2 / 5;
-      img:hover {
-        animation: grower 6s linear infinite;
+      text-align: center;
+      img {
+        max-width: 80%;
+      }
+    }
+
+    .leftImageContainer {
+      grid-column: 1 / 3;
+
+      img{
+        &:hover {
+          animation: leftShark 6s linear infinite;
+        }
+      }
+    }
+
+    .rightImageContainer {
+      grid-column: 11 / 13;
+
+      img{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        &:hover {
+          animation: rightShark 6s linear infinite;
+        }
       }
     }
 
     form {
-      grid-column: 6 / 11;
+      grid-column: 4 / 10;
     }
 
     .imageContainer, form {
-      padding: 3rem 0;
+      padding: 1rem 0;
     }
 
     .contactFormInput {
       padding: 5px;
-      margin: 0 1rem 2rem 0;
+      margin-bottom: 10px;
     }
 
     textarea {
-      height: 33%;
-      min-height: 150px;
+      height: 27%;
+      min-height: 120px;
     }
 
     input[type=submit] {

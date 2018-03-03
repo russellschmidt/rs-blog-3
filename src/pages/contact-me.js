@@ -13,7 +13,7 @@ export default () => (
     <div className="headerContainer">
       <h1>Contact Me!</h1>
     </div>
-    <div className="imageContainer">
+    <div className="imageContainer leftImageContainer">
       <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/leif-erikson.svg" alt="Leif Ericson statue in Reykjavik, the discoverer of America for the Europeans"/>
     </div>
     <form action="https://formspree.io/russ@russellschmidt.net"
@@ -31,5 +31,8 @@ export default () => (
       <input type="hidden" name="_next" value="//rusl.io/" />
       <div className="submitContainer"><input type="submit" value="Send"/></div>
     </form>
+    <div className="imageContainer rightImageContainer">
+      <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/leif-erikson.svg" alt="Leif Ericson statue in Reykjavik, the discoverer of America for the Europeans"/>
+    </div>
   </div>
 );
