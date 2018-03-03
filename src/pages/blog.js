@@ -6,6 +6,12 @@ import { css } from "glamor";
 
 import { rhythm } from "../utils/typography";
 
+let throbbing = css.keyframes('pulsate', {
+  '0%': { transform: `rotate(0deg) scale(1)`},
+  '50%': { transform: `rotate(180deg) scale (0.8)` },
+  '100%': { transform: `rotate(360deg) scale(0.01)` },
+});
+
 const blogPostsContainer = css({
   display: `grid`,
   gridTemplateColumns: `repeat(12, 8%)`,
@@ -20,6 +26,9 @@ const blogPostPreview = css({
   "@media (max-width: 768px)": {
     gridColumn: `span 13`,
   },
+  "&:hover": {
+    animation: `${throbbing} 2s linear infinite`,
+  }
 });
 
 const blogPostTitle = css({

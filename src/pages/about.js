@@ -10,7 +10,7 @@ let container = css({
   height: `calc(100vh - 248px)`,
 });
 
-const blogPostsContainer = css({
+let innerContainer = css({
   display: `grid`,
   gridTemplateColumns: `repeat(12, 8%)`,
   gridTemplateRows: `auto`,
@@ -34,7 +34,7 @@ export default () => (
   <div className={container}>
     <Helmet title={`About Russell Schmidt, a developer in Los Angeles, CA`}/>
     <h1>About</h1>
-    <div className={blogPostsContainer}>
+    <div className={innerContainer}>
       <div className={imageContainer}>
       </div>
       <div className={sidebarContainer}>
