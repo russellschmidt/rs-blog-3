@@ -9,7 +9,8 @@ import { rhythm } from "../utils/typography";
 let throbbing = css.keyframes('pulsate', {
   '0%': { transform: `rotate(0deg) scale(1)`},
   '50%': { transform: `rotate(180deg) scale (0.8)` },
-  '100%': { transform: `rotate(360deg) scale(0.01)` },
+  '80%': { transform: `rotate(360deg) scale(0.001)` },
+  '100%': { transform: `rotate(360deg) scale(0)` }
 });
 
 const blogPostsContainer = css({
@@ -27,7 +28,7 @@ const blogPostPreview = css({
     gridColumn: `span 13`,
   },
   "&:hover": {
-    animation: `${throbbing} 2s linear infinite`,
+    animation: `${throbbing} 3s linear 2.5s 1`,
   }
 });
 
