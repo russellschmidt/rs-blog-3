@@ -7,7 +7,7 @@ import { css } from "glamor";
 import { rhythm } from "../utils/typography";
 
 let container = css({
-  height: `calc(100vh - 100px)`,
+  // height: `calc(100vh - 270px)`,
 });
 
 let innerContainer = css({
@@ -42,6 +42,7 @@ let portraitCarousel = [
   `https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-4.jpg`,
   `https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-5.jpg`
 ];
+
 
 export default () => (
   <div className={container}>
