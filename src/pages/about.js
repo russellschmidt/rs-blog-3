@@ -8,6 +8,7 @@ import { rhythm } from "../utils/typography";
 
 let container = css({
   // height: `calc(100vh - 270px)`,
+  height: `100%`
 });
 
 let innerContainer = css({
@@ -19,22 +20,37 @@ let innerContainer = css({
 });
 
 let imageContainer = css({
-  gridColumn: `span 4`,
+  gridColumn: `span 12`,
   " img ": {
     width: `100%`,
-    margin: 0,
+    margin: `0 0 inherit 0`,
     padding: 0,
+  },
+  "@media (min-width: 768px)": {
+    gridColumn: `span 6`,
   }
 });
 
 let articleContainer = css({
-  gridColumn: `span 6`
+  gridColumn: `span 8`,
+  "@media (min-width: 768px)": {
+    gridColumn: `span 4`,
+  }
 });
 
 let sidenavContainer = css({
-  gridColumn: `span 2`,
+  gridColumn: `span 4`,
   ' h6': {
-    fontStyle: `normal`
+    fontStyle: `normal`,
+    marginTop: 0,
+    textTransform: `uppercase`,
+    fontSize: rhythm(0.5)
+  },
+  ' a': {
+    fontSize: rhythm(0.5)
+  },
+  "@media (min-width: 768px)": {
+    gridColumn: `span 2`,
   }
 });
 
