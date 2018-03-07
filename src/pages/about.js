@@ -27,12 +27,12 @@ let imageContainer = css({
   }
 });
 
-let sidebarContainer = css({
-
+let articleContainer = css({
+  gridColumn: `span 6`
 });
 
-let articleContainer = css({
-
+let sidenavContainer = css({
+  gridColumn: `span 3`
 });
 
 let portraitCarousel = [
@@ -52,9 +52,10 @@ export default () => (
       <div className={imageContainer}>
         <img src={portraitCarousel[0]} alt="Pictures of me" />
       </div>
-      <div className={sidebarContainer}>
-      </div>
       <div className={articleContainer}>
+      </div>
+      <div className={sidenavContainer}>
+        <a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell_Resume.pdf" target="_blank">Resume</a>
       </div>
     </div>
   </div>
