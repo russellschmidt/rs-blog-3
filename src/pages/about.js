@@ -16,6 +16,7 @@ let innerContainer = css({
   gridTemplateColumns: `repeat(12, 8%)`,
   gridTemplateRows: `auto`,
   width: `100%`,
+  minHeight: `100vh`,
   justifyContent: `space-evenly`,
 });
 
@@ -70,6 +71,9 @@ export default () => (
     <div className={innerContainer}>
       <div className={imageContainer}>
         <img src={portraitCarousel[1]} alt="Pictures of me" />
+        <div>
+          <button>next</button>
+        </div>
       </div>
       <div className={articleContainer}>
       </div>
