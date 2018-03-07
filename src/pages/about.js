@@ -19,7 +19,7 @@ let innerContainer = css({
 });
 
 let imageContainer = css({
-  gridColumn: `span 3`,
+  gridColumn: `span 4`,
   " img ": {
     width: `100%`,
     margin: 0,
@@ -32,7 +32,10 @@ let articleContainer = css({
 });
 
 let sidenavContainer = css({
-  gridColumn: `span 3`
+  gridColumn: `span 2`,
+  ' h6': {
+    fontStyle: `normal`
+  }
 });
 
 let portraitCarousel = [
@@ -50,11 +53,12 @@ export default () => (
     <h1>About</h1>
     <div className={innerContainer}>
       <div className={imageContainer}>
-        <img src={portraitCarousel[0]} alt="Pictures of me" />
+        <img src={portraitCarousel[1]} alt="Pictures of me" />
       </div>
       <div className={articleContainer}>
       </div>
       <div className={sidenavContainer}>
+        <h6>Links</h6>
         <a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell_Resume.pdf" target="_blank">Resume</a>
       </div>
     </div>
