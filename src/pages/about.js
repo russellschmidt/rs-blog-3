@@ -80,6 +80,9 @@ export default () => (
       <div className={sidenavContainer}>
         <h6>Links</h6>
         <a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell_Resume.pdf" target="_blank">Resume</a>
+        <h6>Open Source</h6>
+        <a href="https://github.com/botpress/botpress/pull/177" target="_blank">Botpress docs</a>
+        <a href="https://github.com/andrewngu/sound-redux/pull/99" target="_blank">SoundRedux</a>
       </div>
     </div>
   </div>
