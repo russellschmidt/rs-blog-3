@@ -7,7 +7,6 @@ import { css } from "glamor";
 import { rhythm } from "../utils/typography";
 
 let container = css({
-  // height: `calc(100vh - 270px)`,
   height: `100%`
 });
 
@@ -16,15 +15,20 @@ let innerContainer = css({
   gridTemplateColumns: `repeat(12, 8%)`,
   gridTemplateRows: `auto`,
   width: `100%`,
-  minHeight: `100vh`,
+  minHeight: `calc(100vh-300px)`,
   justifyContent: `space-evenly`,
+  "@media (max-width: 767px)": {
+    gridTemplateRows: `40% auto`,
+  }
 });
 
 let imageContainer = css({
   gridColumn: `span 12`,
+  margin: `0 auto`,
+  width: `100%`,
   " img ": {
     width: `100%`,
-    margin: `0 0 inherit 0`,
+    margin: `0`,
     padding: 0,
   },
   "@media (min-width: 768px)": {
@@ -46,11 +50,17 @@ let sidenavContainer = css({
     margin: `0 0 0.4rem 0`,
     textTransform: `uppercase`,
     fontSize: rhythm(0.5),
+    "@media (max-width: 767px)": {
+      fontSize: `0.5rem`,
+    }
   },
   ' a': {
     fontSize: rhythm(0.5),
     color: `#555`,
     fontSize: rhythm(0.45),
+    "@media (max-width: 767px)": {
+      fontSize: `0.4rem`,
+    }
   },
   ' ul': {
     listStyleType: `none`,
@@ -91,8 +101,9 @@ export default () => (
         <ul>
           <li><a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell_Resume.pdf" target="_blank">Resume</a></li>
         </ul>
-        <h6>Open Source</h6>
+        <h6>Contributions</h6>
         <ul>
+          <li><a href="https://github.com/stympy/faker" target="_blank">Faker</a></li>
           <li><a href="https://github.com/botpress/botpress/pull/177" target="_blank">Botpress</a></li>
           <li><a href="https://github.com/andrewngu/sound-redux/pull/99" target="_blank">SoundRedux</a></li>
         </ul>
