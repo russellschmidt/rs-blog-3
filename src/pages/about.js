@@ -43,12 +43,21 @@ let sidenavContainer = css({
   gridColumn: `span 4`,
   ' h6': {
     fontStyle: `normal`,
-    marginTop: 0,
+    margin: `0 0 0.4rem 0`,
     textTransform: `uppercase`,
-    fontSize: rhythm(0.5)
+    fontSize: rhythm(0.5),
   },
   ' a': {
-    fontSize: rhythm(0.5)
+    fontSize: rhythm(0.5),
+    color: `#555`,
+    fontSize: rhythm(0.45),
+  },
+  ' ul': {
+    listStyleType: `none`,
+    margin: `0 0 0.8rem 0`
+  },
+  ' li': {
+    margin: 0,
   },
   "@media (min-width: 768px)": {
     gridColumn: `span 2`,
@@ -72,17 +81,21 @@ export default () => (
       <div className={imageContainer}>
         <img src={portraitCarousel[1]} alt="Pictures of me" />
         <div>
-          <button>next</button>
+          
         </div>
       </div>
       <div className={articleContainer}>
       </div>
       <div className={sidenavContainer}>
         <h6>Links</h6>
-        <a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell_Resume.pdf" target="_blank">Resume</a>
+        <ul>
+          <li><a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell_Resume.pdf" target="_blank">Resume</a></li>
+        </ul>
         <h6>Open Source</h6>
-        <a href="https://github.com/botpress/botpress/pull/177" target="_blank">Botpress docs</a>
-        <a href="https://github.com/andrewngu/sound-redux/pull/99" target="_blank">SoundRedux</a>
+        <ul>
+          <li><a href="https://github.com/botpress/botpress/pull/177" target="_blank">Botpress</a></li>
+          <li><a href="https://github.com/andrewngu/sound-redux/pull/99" target="_blank">SoundRedux</a></li>
+        </ul>
       </div>
     </div>
   </div>
