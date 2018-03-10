@@ -5,6 +5,10 @@ import g from 'glamorous';
 import { css } from 'glamor';
 
 import { rhythm } from '../utils/typography';
+import Gold from '../components/MedalGold.js';
+import Silver from '../components/MedalSilver.js';
+import Bronze from '../components/MedalBronze.js';
+import ImageCarousel from '../components/ImageCarousel.js';
 
 const container = css({
   height: '100%',
@@ -14,9 +18,25 @@ const container = css({
     margin: '0 0 1rem 0',
   },
   ' li, a': {
-    fontSize: 12,
+    fontSize: 14,
     margin: 0,
-    padding: 0
+    padding: 0,
+  },
+  ' span img': {
+    maxHeight: 14,
+  },
+  ' h3': {
+    margin: '1rem 0',
+  },
+  ' h6': {
+    margin: '0.3rem 0',
+    fontStyle: 'normal',
+  },
+  ' figure>img': {
+    marginBottom: 5,
+  },
+  ' figcaption': {
+    textAlign: 'center',
   },
   '@media (min-width: 768px)': {
     ' h3': {
@@ -25,8 +45,17 @@ const container = css({
     ' h6': {
       margin: '0 0 0.3rem 0',
       fontStyle: 'normal',
-    }
-  }
+    },
+    ' li, a': {
+      fontSize: 12,
+    },
+    ' span img': {
+      maxHeight: 12,
+    },
+    ' figcaption': {
+      fontSize: 12,
+    },
+  },
 });
 
 const innerContainer = css({
@@ -45,7 +74,7 @@ const imageContainer = css({
   gridColumn: 'span 12',
   '@media (min-width: 768px)': {
     gridColumn: 'span 6',
-    width: '90%'
+    width: '90%',
   },
 });
 
@@ -65,27 +94,18 @@ const sidenavContainer = css({
   },
 });
 
-const portraitCarousel = [
-  'https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg',
-  'https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-2.jpg',
-  'https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-3.jpg',
-  'https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-4.jpg',
-  'https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-5.jpg',
-];
-
-
 export default () => (
   <div className={container}>
     <Helmet title="About Russell Schmidt, a developer in Los Angeles, CA" />
     <h1>About</h1>
     <div className={innerContainer}>
       <div className={imageContainer}>
-        <img src={portraitCarousel[1]} alt="Pictures of Russell Schmidt" />
+        <ImageCarousel/>
       </div>
       <div className={articleContainer}>
         <article>
           <h3>Biography</h3>
-          <p></p>
+          <p />
         </article>
         <article>
           <h3>Education</h3>
@@ -118,7 +138,7 @@ export default () => (
             <li>
               <h6>Certificate in Mobile Development (iOS/Swift)</h6>
               <ul>
-              <li>General Assembly</li>
+                <li>General Assembly</li>
                 <li>2015</li>
                 <li><a href="https://generalassemb.ly/education/ios-development" target="_blank">iOS Development</a></li>
               </ul>
@@ -134,7 +154,7 @@ export default () => (
             <li>
               <h6>Certificate in Digital Marketing</h6>
               <ul>
-              <li>General Assembly</li>
+                <li>General Assembly</li>
                 <li>2013</li>
                 <li><a href="https://generalassemb.ly/education/digital-marketing" target="_blank">Digital Marketing &amp; Strategy</a></li>
               </ul>
@@ -158,36 +178,40 @@ export default () => (
         </ul>
         <h6>Languages & Frameworks</h6>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>SASS/SCSS</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>React</li>
-          <li>React Native</li>
-          <li>Gatsby</li>
-          <li>Angular v1</li>
-          <li>Meteor</li>
-          <li>Ruby</li>
-          <li>Ruby on Rails</li>
-          <li>Jekyll</li>
-          <li>PHP</li>
-          <li>WordPress</li>
-          <li>Swift</li>
+          <li>HTML <Gold/></li>
+          <li>CSS <Gold/></li>
+          <li>SASS/SCSS <Gold/></li>
+          <li>JavaScript <Gold/></li>
+          <li>jQuery <Silver/></li>
+          <li>React <Silver/></li>
+          <li>React Native <Bronze/></li>
+          <li>Gatsby <Silver/></li>
+          <li>Angular v1 <Bronze/></li>
+          <li>Meteor <Bronze/></li>
+          <li>Ruby <Silver/></li>
+          <li>Ruby on Rails <Silver/></li>
+          <li>Jekyll <Bronze/></li>
+          <li>PHP <Bronze/></li>
+          <li>WordPress <Gold/></li>
+          <li>Swift <Bronze/></li>
         </ul>
         <h6>Databases & Backend</h6>
         <ul>
-          <li>SQL</li>
-          <li>PostgreSQL</li>
-          <li>MongoDB</li>
-          <li>GraphQL</li>
-          <li>Firebase</li>
+          <li>SQL <Silver/></li>
+          <li>PostgreSQL <Silver/></li>
+          <li>MongoDB <Bronze/></li>
+          <li>GraphQL <Bronze/></li>
+          <li>Firebase <Bronze/></li>
         </ul>
         <h6>Open Source Contributions</h6>
         <ul>
           <li><a href="https://github.com/stympy/faker" target="_blank">Faker</a></li>
           <li><a href="https://github.com/botpress/botpress/pull/177" target="_blank">Botpress</a></li>
           <li><a href="https://github.com/andrewngu/sound-redux/pull/99" target="_blank">SoundRedux</a></li>
+        </ul>
+        <h6>Open Source Projects</h6>
+        <ul>
+          <li><a href="https://github.com/russellschmidt/climate-cents" target="_blank">Ruby on Rails Crowdfunding</a></li>
         </ul>
         <h6>Icons</h6>
         <ul>

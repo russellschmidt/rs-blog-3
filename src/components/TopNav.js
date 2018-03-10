@@ -45,7 +45,6 @@ let navHeader = css({
     marginTop: rhythm(2/3),
     marginBottom: rhythm(1/3),
   },
-
 });
 
 let logo = css({
@@ -80,8 +79,6 @@ let navLink = css({
 let navLogo = css({
 
 });
-
-
 
 export default () => (
   <nav className={componentGrid}>
