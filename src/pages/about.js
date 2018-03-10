@@ -188,6 +188,10 @@ export default () => (
           <li><a href="https://github.com/botpress/botpress/pull/177" target="_blank">Botpress</a></li>
           <li><a href="https://github.com/andrewngu/sound-redux/pull/99" target="_blank">SoundRedux</a></li>
         </ul>
+        <h6>Icons</h6>
+        <ul>
+          <li>Icons sourced from <a href="https://icons8.com/" target="_blank">icons8.com</a></li>
+        </ul>
       </div>
     </div>
   </div>
