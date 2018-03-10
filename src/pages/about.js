@@ -104,7 +104,7 @@ export default () => (
               <ul>
                 <li>Harvard University</li>
                 <li>2001</li>
-                <li><a href="https://economics.harvard.edu/" target="_blank">Economics</a></li>
+                <li><a href="https://economics.harvard.edu/" target="_blank">Department of the Dismal Science</a></li>
               </ul>
             </li>
             <li>
@@ -173,6 +173,7 @@ export default () => (
           <li>Jekyll</li>
           <li>PHP</li>
           <li>WordPress</li>
+          <li>Swift</li>
         </ul>
         <h6>Databases & Backend</h6>
         <ul>
