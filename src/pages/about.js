@@ -22,6 +22,10 @@ const container = css({
     margin: 0,
     padding: 0,
   },
+  ' p':{
+    fontSize: 14,
+    width: '90%',
+  },
   ' span img': {
     maxHeight: 14,
   },
@@ -46,7 +50,7 @@ const container = css({
       margin: '0 0 0.3rem 0',
       fontStyle: 'normal',
     },
-    ' li, a': {
+    ' li, a, p': {
       fontSize: 12,
     },
     ' span img': {
@@ -101,11 +105,17 @@ export default () => (
     <div className={innerContainer}>
       <div className={imageContainer}>
         <ImageCarousel/>
+        <article>
+        <h3>Biography</h3>
+        <p> </p>
+      </article>
       </div>
       <div className={articleContainer}>
         <article>
-          <h3>Biography</h3>
-          <p />
+          <h3>Let's Make Something Cool</h3>
+          <p>I am experienced in frontend and backend website development. <Link to="/contact-me/">Please reach out</Link> if you need someone to help maintain your current website or want to build something new.</p>
+          <p>Not sure what architecture or language to use? I have a broad exposure to different architectures, having built and maintained websites using React, Ruby on Rails, WordPress &amp; WooCommerce, Shopify, Squarespace, Jekyll, and Gatsby.</p>
+          <p>Not sure if I am a good fit? Me neither! But I've worked with corporate and nonprofit organizations to help them meet their online goals, and am generally pretty agreeable. I hope we can create something together!</p>
         </article>
         <article>
           <h3>Education</h3>
