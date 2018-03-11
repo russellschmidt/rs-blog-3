@@ -18,9 +18,14 @@ const container = css({
     margin: '0 0 1rem 0',
   },
   ' li, a': {
-    fontSize: 14,
     margin: 0,
     padding: 0,
+  },
+  ' a': {
+    fontSize: 14,
+  },
+  ' li': {
+    fontSize: 12,
   },
   ' p':{
     fontSize: 14,
@@ -106,17 +111,17 @@ export default () => (
       <div className={imageContainer}>
         <ImageCarousel/>
         <article>
-        <h3>Biography</h3>
-        <p> </p>
-      </article>
-      </div>
-      <div className={articleContainer}>
-        <article>
           <h3>Let's Make Something Cool</h3>
           <p>I am experienced in frontend and backend website development. <Link to="/contact-me/">Please reach out</Link> if you need someone to help maintain your current website or want to build something new.</p>
           <p>Not sure what architecture or language to use? I have a broad exposure to different architectures, having built and maintained websites using React, Ruby on Rails, WordPress &amp; WooCommerce, Shopify, Squarespace, Jekyll, and Gatsby.</p>
           <p>Not sure if I am a good fit? Me neither! But I've worked with corporate and nonprofit organizations to help them meet their online goals, and am generally pretty agreeable. I hope we can create something together!</p>
         </article>
+      </div>
+      <div className={articleContainer}>
+      <article>
+        <h3>Biography</h3>
+        <p></p>
+      </article>
         <article>
           <h3>Education</h3>
           <ul>
@@ -188,30 +193,33 @@ export default () => (
         </ul>
         <h6>Languages & Frameworks</h6>
         <ul>
-          <li>HTML <Gold/></li>
+          <li>Angular v1 <Bronze/></li>
           <li>CSS <Gold/></li>
-          <li>SASS/SCSS <Gold/></li>
+          <li>Gatsby <Silver/></li>
+          <li>HTML <Gold/></li>
           <li>JavaScript <Gold/></li>
+          <li>Jekyll <Bronze/></li>
           <li>jQuery <Silver/></li>
+          <li>Meteor <Bronze/></li>
+          <li>PHP <Bronze/></li>
           <li>React <Silver/></li>
           <li>React Native <Bronze/></li>
-          <li>Gatsby <Silver/></li>
-          <li>Angular v1 <Bronze/></li>
-          <li>Meteor <Bronze/></li>
           <li>Ruby <Silver/></li>
           <li>Ruby on Rails <Silver/></li>
-          <li>Jekyll <Bronze/></li>
-          <li>PHP <Bronze/></li>
-          <li>WordPress <Gold/></li>
+          <li>SASS/SCSS <Gold/></li>
+          <li>Shopify <Gold/></li>
+          <li>Squarespace <Gold/></li>
           <li>Swift <Bronze/></li>
+          <li>WooCommerce <Silver/></li>
+          <li>WordPress <Gold/></li>
         </ul>
         <h6>Databases & Backend</h6>
         <ul>
-          <li>SQL <Silver/></li>
-          <li>PostgreSQL <Silver/></li>
-          <li>MongoDB <Bronze/></li>
-          <li>GraphQL <Bronze/></li>
           <li>Firebase <Bronze/></li>
+          <li>GraphQL <Bronze/></li>
+          <li>MongoDB <Bronze/></li>
+          <li>PostgreSQL <Silver/></li>
+          <li>SQL <Silver/></li>
         </ul>
         <h6>Open Source Contributions</h6>
         <ul>

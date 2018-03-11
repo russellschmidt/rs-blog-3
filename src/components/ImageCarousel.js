@@ -52,7 +52,13 @@ class ImageCarousel extends React.Component {
       <figure css={{
         marginBottom: 0
       }}>
-        <img src={this.state.portraitCarousel[this.state.photoNumber]}/>
+        <img css={{
+          display: `inline-block`,
+          margin: `0 auto`,
+          '@media (min-width: 768px)': {
+            padding: `25px 25px 25px 0`,
+          },
+        }} src={this.state.portraitCarousel[this.state.photoNumber]}/>
         <div css={{
           display: `flex`,
           flexFlow: `row nowrap`,
@@ -60,7 +66,7 @@ class ImageCarousel extends React.Component {
           position: `relative`,
           top: -50,
           '@media (min-width: 768px)': {
-            top: -42,
+            top: -67,
           }
         }}>
           <button css={{
@@ -71,6 +77,7 @@ class ImageCarousel extends React.Component {
             '@media (min-width: 768px)': {
               width: `20%`,
               fontSize: 14,
+              marginLeft: 0,
             }
           }} onClick={this.reversePhoto}>Previous</button>
           <button css={{
@@ -81,6 +88,7 @@ class ImageCarousel extends React.Component {
             '@media (min-width: 768px)': {
               width: `20%`,
               fontSize: 14,
+              marginRight: 25,
             }
           }}onClick={this.advancePhoto}>Next</button>
         </div>
@@ -88,7 +96,10 @@ class ImageCarousel extends React.Component {
           minHeight: `3.2rem`,
           fontSize: `1rem`,
           lineHeight: 1.2,
-          marginTop: `-1.5rem`
+          marginTop: -35,
+          '@media (min-width: 768px)': {
+            marginTop: -55,
+          },
         }}>{this.state.captionCarousel[this.state.photoNumber]}</figcaption>
       </figure>
     )
