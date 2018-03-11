@@ -30,6 +30,7 @@ const container = css({
   ' p':{
     fontSize: 14,
     width: '90%',
+    marginBottom: 10,
   },
   ' span img': {
     maxHeight: 14,
@@ -64,6 +65,9 @@ const container = css({
     ' figcaption': {
       fontSize: 12,
     },
+    ' p': {
+      marginBottom: `1rem`,
+    }
   },
 });
 
@@ -118,10 +122,13 @@ export default () => (
         </article>
       </div>
       <div className={articleContainer}>
-      <article>
-        <h3>Biography</h3>
-        <p></p>
-      </article>
+        <article>
+          <h3>Biography</h3>
+          <p>Hi visitor! Thanks for your interest in me, I am flattered. I hope to get to know you, too.</p>
+          <p>My work interests are making websites and native apps for you <Link to="/about-me/">(hit me up)</Link>! I love design and making sites.</p>
+          <p>When I am not dreaming about working with you in my spare time, which is rarely, I can be found: reading, playing with my dog-daughter (aka my DogTer&trade;) Violet, traveling, visiting museums and galleries, baseball, yoga, and having fun with my wife, in no particular order other than wife is first (hi, Janet!).</p> 
+          <p>For media consumption, I enjoy binge watching science fiction, especially when set in dystopian hellscapes, and also historical dramas. I don't have a favorite music genre, but loud and fast is generally best.</p>
+        </article>
         <article>
           <h3>Education</h3>
           <ul>

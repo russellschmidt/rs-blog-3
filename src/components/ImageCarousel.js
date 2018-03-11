@@ -56,7 +56,7 @@ class ImageCarousel extends React.Component {
           display: `inline-block`,
           margin: `0 auto`,
           '@media (min-width: 768px)': {
-            padding: `25px 25px 25px 0`,
+            padding: `0 25px 25px 0`,
           },
         }} src={this.state.portraitCarousel[this.state.photoNumber]}/>
         <div css={{
