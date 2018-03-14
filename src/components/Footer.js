@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import g from "glamorous";
 import { css } from "glamor";
 
-let slideItIn = css.keyframes('slideItIn', {
+const slideItIn = css.keyframes('slideItIn', {
   '0%': {
     marginLeft: '200%',
     width: '300%',
@@ -14,7 +14,7 @@ let slideItIn = css.keyframes('slideItIn', {
   }
 });
 
-let bottomPulsate = css.keyframes('bottomPulsate', {
+const bottomPulsate = css.keyframes('bottomPulsate', {
   '0%': { opacity: 0.85, textShadow: `0 0 20px #ff0000` },
   '25%': { opacity: 0.55, textShadow: `0 0 25px #bb3322` },
   '50%': { opacity: 0.75, textShadow: `0 0 20px #dd2222` },
@@ -22,7 +22,7 @@ let bottomPulsate = css.keyframes('bottomPulsate', {
   '100%': { opacity: 0.85, textShadow: `0 0 20px #ff0000` },
 });
 
-let componentGrid = css({
+const componentGrid = css({
   display: `grid`,
   gridTemplateColumns: `repeat(12, 8%)`,
   gridTemplateRows: `33px 33px`,
@@ -31,7 +31,7 @@ let componentGrid = css({
   justifyContent: `space-evenly`,
 });
 
-let iconP = css({
+const iconP = css({
   margin: 0,
   padding: `5px 0 0`,
   '@media (min-width: 768px)': {
@@ -39,99 +39,99 @@ let iconP = css({
   }
 });
 
-let iconA = css({
+const iconA = css({
   margin: 0,
   padding: 0,
 });
 
-let iconImg = css({
+const iconImg = css({
   width: 20,
   height: 20,
 });
 
-let iconSquare = css({
+const iconSquare = css({
   "&:hover": {
     borderRadius: `20%`,
   },
 });
 
-let iconCircle = css({
+const iconCircle = css({
   "&:hover": {
     borderRadius: `50%`,
   },
 });
 
-let iconLinkedIn = css({
+const iconLinkedIn = css({
   "&:hover": {
     background: `rgba(0, 119, 181, 0.75)`,
     boxShadow: `0 0 6px 2px rgba(0, 119, 181, 0.8)`
   },
 });
 
-let iconGithub = css({
+const iconGithub = css({
   "&:hover": {
     background: `rgba(24, 23, 23, 0.3)`,
     boxShadow: `0 0 6px 3px rgba(24, 23, 23, 0.5)`
   },
 });
 
-let iconTwitter = css({
+const iconTwitter = css({
   "&:hover": {
     background: `rgba(29, 161, 242, 0.75)`,
     boxShadow: `0 0 6px 3px rgba(29, 161, 242, 0.8)`
   },
 });
 
-let iconInstagram = css({
+const iconInstagram = css({
   "&:hover": {
     background: `rgba(228, 64, 95, 0.75)`,
     boxShadow: `0 0 6px 2px rgba(228, 64, 95, 0.8)`
   },
 });
 
-let iconGooglePlus = css({
+const iconGooglePlus = css({
   "&:hover": {
     background: `rgba(220, 78, 65, 0.75)`,
     boxShadow: `0 0 6px 3px rgba(220, 78, 65, 0.8)`
   },
 });
 
-let iconSnapchat = css({
+const iconSnapchat = css({
   "&:hover": {
     background: `rgba(255, 252, 0, 0.75)`,
     boxShadow: `0 0 6px 2px rgba(255, 252, 0, 0.8)`
   },
 });
 
-let iconSteam = css({
+const iconSteam = css({
   "&:hover": {
     background: `rgba(0, 0, 0, 0.3)`,
     boxShadow: `0 0 6px 3px rgba(0, 0, 0, 0.5)`
   },
 });
 
-let iconPinterest = css({
+const iconPinterest = css({
   "&:hover": {
     background: `rgba(189, 8, 28, 0.75)`,
     boxShadow: `0 0 6px 3px rgba(189, 8, 28, 0.8)`
   },
 });
 
-let iconCodeWars = css({
+const iconCodeWars = css({
   "&:hover": {
     background: `rgba(173, 44, 39, 0.75)`,
     boxShadow: `0 0 6px 3px rgba(173, 44, 39, 0.8)`
   },
 });
 
-let iconStackOverflow = css({
+const iconStackOverflow = css({
   "&:hover": {
     background: `rgba(254, 122, 22, 0.75)`,
     boxShadow: `0 0 6px 2px rgba(254, 122, 22, 0.8)`
   },
 });
 
-let navLink = css({
+const navLink = css({
   color: `#000`,
   fontStyle: `normal`,
   "&:hover": {
@@ -140,7 +140,7 @@ let navLink = css({
   },
 });
 
-let footerParagraph = css({
+const footerParagraph = css({
   gridColumn: `span 3`,
   fontSize: 8,
   textAlign: `right`,
@@ -155,7 +155,7 @@ let footerParagraph = css({
   }
 });
 
-let copyrightParagraph = css({
+const copyrightParagraph = css({
   gridColumn: `span 3`,
   fontSize: 8,
   textAlign: `right`,

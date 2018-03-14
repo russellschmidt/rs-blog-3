@@ -5,14 +5,14 @@ import { css } from "glamor";
 
 import {rhythm} from "../utils/typography";
 
-let pulsate = css.keyframes('pulsate', {
+const pulsate = css.keyframes('pulsate', {
   '0%': { opacity: 0.8, textShadow: `0 0 25px #f80` },
   '33%': { opacity: 0.6, textShadow: `0 0 25px #0f8` },
   '66%': { opacity: 0.8, textShadow: `0 0 25px #0ff` },
   '100%': { opacity: 0.6, textShadow: `0 0 25px #80f` },
 });
 
-let slideItIn = css.keyframes('slideItIn', {
+const slideItIn = css.keyframes('slideItIn', {
   '0%': {
     marginLeft: '200%',
     width: '300%',
@@ -23,7 +23,7 @@ let slideItIn = css.keyframes('slideItIn', {
   }
 });
 
-let componentGrid = css({
+const componentGrid = css({
   display: `grid`,
   gridTemplateColumns: `repeat(12, 8%)`,
   gridTemplateRows: `auto`,
@@ -32,7 +32,7 @@ let componentGrid = css({
   justifyContent: `space-evenly`,
 });
 
-let navHeader = css({
+const navHeader = css({
   marginTop: rhythm(1),
   marginBottom: rhythm(1/2),
   textAlign: `left`,
@@ -47,7 +47,7 @@ let navHeader = css({
   },
 });
 
-let logo = css({
+const logo = css({
   gridColumn: `1/7`,
   textAlign: `left`,
   "@media (max-width: 768px)": {
@@ -56,13 +56,13 @@ let logo = css({
   },
 });
 
-let rightLink = css({
+const rightLink = css({
   "@media (max-width: 768px)": {
     textAlign: `right`,
   },
 });
 
-let navLink = css({
+const navLink = css({
   color: `#000`,
   fontStyle: `normal`,
   "&:hover": {
@@ -76,7 +76,7 @@ let navLink = css({
   },
 });
 
-let navLogo = css({
+const navLogo = css({
 
 });
 

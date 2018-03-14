@@ -10,6 +10,23 @@ import Silver from '../components/MedalSilver.js';
 import Bronze from '../components/MedalBronze.js';
 import ImageCarousel from '../components/ImageCarousel.js';
 
+const throb = css.keyframes('throb', {
+  '0%': { borderBottom: '1px dotted #f92300'},
+  '7.7%': { borderBottom: '1px dotted #ff2100'},
+  '15.4%': { borderBottom: '1px dotted #ffa100'},
+  '23.1%': { borderBottom: '1px dotted #ddff00'},
+  '30.8%': { borderBottom: '1px dotted #5dff00'},
+  '38.5%': { borderBottom: '1px dotted #00ff21'},
+  '46.2%': { borderBottom: '1px dotted #00ffa1'},
+  '53.9%': { borderBottom: '1px dotted #00ddff'},
+  '61.6%': { borderBottom: '1px dotted #005dff'},
+  '69.3%': { borderBottom: '1px dotted #2200ff'},
+  '77%': { borderBottom: '1px dotted #a100ff'},
+  '84.7%': { borderBottom: '1px dotted #ff00dc'},
+  '92.4%': { borderBottom: '1px dotted #ff005d'},
+  '100%': { borderBottom: '1px dotted #f92300'},
+})
+
 const container = css({
   height: '100%',
   ' ul': {
@@ -23,6 +40,12 @@ const container = css({
   },
   ' a': {
     fontSize: 14,
+    '&:hover':{
+      textDecoration: 'none',
+      color: '#f92300',
+      fontWeight: 600,
+      animation: `${throb} 3s 1s ease-in-out infinite`,
+    }
   },
   ' li': {
     fontSize: 12,
@@ -146,7 +169,7 @@ export default () => (
               <ul>
                 <li>Harvard University</li>
                 <li>2001</li>
-                <li><a href="https://economics.harvard.edu/" target="_blank">Department of the Dismal Science</a></li>
+                <li><a href="https://economics.harvard.edu/" target="_blank">Economics Department</a></li>
               </ul>
             </li>
             <li>
