@@ -174,7 +174,7 @@ export default () => (
         <h3>Links</h3>
         <h6>CV</h6>
         <ul>
-          <li><a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell_Resume.pdf" target="_blank">Resume</a></li>
+          <li><a href="https://storage.googleapis.com/russellmschmidt-net-portfolio/resume/Schmidt_Russell__Resume.pdf" target="_blank">Resume</a></li>
         </ul>
         <h6>Languages & Frameworks</h6>
         <ul>
