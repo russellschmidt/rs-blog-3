@@ -18,9 +18,19 @@ const container = css({
     margin: '0 0 1rem 0',
   },
   ' li, a': {
-    fontSize: 14,
     margin: 0,
     padding: 0,
+  },
+  ' a': {
+    fontSize: 14,
+  },
+  ' li': {
+    fontSize: 12,
+  },
+  ' p':{
+    fontSize: 14,
+    width: '90%',
+    marginBottom: 10,
   },
   ' span img': {
     maxHeight: 14,
@@ -46,7 +56,7 @@ const container = css({
       margin: '0 0 0.3rem 0',
       fontStyle: 'normal',
     },
-    ' li, a': {
+    ' li, a, p': {
       fontSize: 12,
     },
     ' span img': {
@@ -55,6 +65,9 @@ const container = css({
     ' figcaption': {
       fontSize: 12,
     },
+    ' p': {
+      marginBottom: `1rem`,
+    }
   },
 });
 
@@ -101,11 +114,20 @@ export default () => (
     <div className={innerContainer}>
       <div className={imageContainer}>
         <ImageCarousel/>
+        <article>
+          <h3>Let's Make Something Cool</h3>
+          <p>I am experienced in frontend and backend website development. <Link to="/contact-me/">Please reach out</Link> if you need someone to help maintain your current website or want to build something new.</p>
+          <p>Not sure what architecture or language to use? I have a broad exposure to different architectures, having built and maintained websites using React, Ruby on Rails, WordPress &amp; WooCommerce, Shopify, Squarespace, Jekyll, and Gatsby.</p>
+          <p>Not sure if I am a good fit? Me neither! But I've worked with corporate and nonprofit organizations to help them meet their online goals, and am generally pretty agreeable. I hope we can create something together!</p>
+        </article>
       </div>
       <div className={articleContainer}>
         <article>
           <h3>Biography</h3>
-          <p />
+          <p>Hi visitor! Thanks for your interest in me, I am flattered. I hope to get to know you, too.</p>
+          <p>My work interests are making websites and native apps for you <Link to="/about-me/">(hit me up)</Link>! I love design and making sites.</p>
+          <p>When I am not dreaming about working with you in my spare time, which is rarely, I can be found: reading, playing with my dog-daughter (aka my DogTer&trade;) Violet, traveling, visiting museums and galleries, baseball, yoga, and having fun with my wife, in no particular order other than wife is first (hi, Janet!).</p> 
+          <p>For media consumption, I enjoy binge watching science fiction, especially when set in dystopian hellscapes, and also historical dramas. I don't have a favorite music genre, but loud and fast is generally best.</p>
         </article>
         <article>
           <h3>Education</h3>
@@ -178,30 +200,33 @@ export default () => (
         </ul>
         <h6>Languages & Frameworks</h6>
         <ul>
-          <li>HTML <Gold/></li>
+          <li>Angular v1 <Bronze/></li>
           <li>CSS <Gold/></li>
-          <li>SASS/SCSS <Gold/></li>
+          <li>Gatsby <Silver/></li>
+          <li>HTML <Gold/></li>
           <li>JavaScript <Gold/></li>
+          <li>Jekyll <Bronze/></li>
           <li>jQuery <Silver/></li>
+          <li>Meteor <Bronze/></li>
+          <li>PHP <Bronze/></li>
           <li>React <Silver/></li>
           <li>React Native <Bronze/></li>
-          <li>Gatsby <Silver/></li>
-          <li>Angular v1 <Bronze/></li>
-          <li>Meteor <Bronze/></li>
           <li>Ruby <Silver/></li>
           <li>Ruby on Rails <Silver/></li>
-          <li>Jekyll <Bronze/></li>
-          <li>PHP <Bronze/></li>
-          <li>WordPress <Gold/></li>
+          <li>SASS/SCSS <Gold/></li>
+          <li>Shopify <Gold/></li>
+          <li>Squarespace <Gold/></li>
           <li>Swift <Bronze/></li>
+          <li>WooCommerce <Silver/></li>
+          <li>WordPress <Gold/></li>
         </ul>
         <h6>Databases & Backend</h6>
         <ul>
-          <li>SQL <Silver/></li>
-          <li>PostgreSQL <Silver/></li>
-          <li>MongoDB <Bronze/></li>
-          <li>GraphQL <Bronze/></li>
           <li>Firebase <Bronze/></li>
+          <li>GraphQL <Bronze/></li>
+          <li>MongoDB <Bronze/></li>
+          <li>PostgreSQL <Silver/></li>
+          <li>SQL <Silver/></li>
         </ul>
         <h6>Open Source Contributions</h6>
         <ul>
