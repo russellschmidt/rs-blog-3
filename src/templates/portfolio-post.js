@@ -1,8 +1,8 @@
-import React from "react";
-import Helmet from "react-helmet";
+import React from 'react';
+import Helmet from 'react-helmet';
 
 export default function Template({
-  data
+  data,
 }) {
   const post = data.markdownRemark;
   return (
@@ -10,6 +10,8 @@ export default function Template({
       <Helmet title={`${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
+        <div>
+        </div>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -31,5 +33,5 @@ export const pageQuery = graphql`
       }
     }
   }
-`
-;
+`;
+

@@ -28,17 +28,24 @@ module.exports = {
         trackingId: 'UA-65699622-1', // ,
       }, //
     },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: `${__dirname}/src/pages`, // ,
-      }, // ,
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`,
+      },
     },
     'gatsby-plugin-catch-links',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
