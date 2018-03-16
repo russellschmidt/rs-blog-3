@@ -68,7 +68,20 @@ export default function Template({
   const post = data.markdownRemark;
   return (
     <div className={blogContainer}>
-      <Helmet title={post.frontmatter.title} />
+      <Helmet> 
+        <title>{post.frontmatter.title}</title>
+        <meta
+              name="description"
+              content={
+                post.frontmatter.excerpt
+                  ? post.frontmatter.excerpt
+                  : post.excerpt
+              }
+            />
+        <meta name="og:description" content={post.excerpt} />
+        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="og:title" content={post.frontmatter.title} />
+      </Helmet>
 
       <article className={blogArticle}>
 
@@ -92,6 +105,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      excerpt(pruneLength: 250)
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

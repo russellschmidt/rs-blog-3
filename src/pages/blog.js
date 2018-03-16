@@ -58,7 +58,9 @@ export default function BlogIndex({ data }) {
   return (
     <div>
       <h1>Blog</h1>
-      <Helmet title={`Blog posts: Russell Schmidt`} />
+      <Helmet> 
+        <title>`Blog posts: Russell Schmidt`</title>
+      </Helmet>
       <div className={blogPostsContainer}>
       {posts
         .filter(post => post.node.frontmatter.title.length > 0)
