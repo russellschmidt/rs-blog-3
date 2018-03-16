@@ -38,13 +38,13 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'img',
-        path: `${__dirname}/src/img/`,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     name: 'img',
+    //     path: `${__dirname}/src/img/`,
+    //   },
+    // },
     'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-plugin-favicon',
