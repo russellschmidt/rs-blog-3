@@ -4,6 +4,8 @@ import { css } from "glamor";
 class ImageCarousel extends React.Component {
   constructor(props) {
     super(props)
+    this.handleAdvancePhoto = this.handleAdvancePhoto.bind(this)
+    this.handleReversePhoto = this.handleReversePhoto.bind(this)
     this.state = {
       photoNumber: 0,
       portraitCarousel: [
@@ -23,28 +25,36 @@ class ImageCarousel extends React.Component {
     };
   }
 
-  advancePhoto = () => {
-    let photoNumber = this.state.photoNumber
-    photoNumber++
-    if (photoNumber >= this.state.portraitCarousel.length) {
-      photoNumber = 0
+  handleAdvancePhoto () {
+    if (this.state.photoNumber >= this.state.portraitCarousel.length - 1) {
+      this.setState(() => {
+        return {
+          photoNumber: 0
+        }
+      })
+    } else {
+      this.setState((prevState) => {
+        return {
+          photoNumber: prevState.photoNumber + 1
+        }
+      })
     }
-
-    this.setState(
-      { photoNumber: photoNumber}
-    )
   }
 
-  reversePhoto = () => {
-    let photoNumber = this.state.photoNumber
-    photoNumber--
-    if (photoNumber <= 0) {
-      photoNumber = this.state.portraitCarousel.length - 1
+  handleReversePhoto () {
+    if (this.state.photoNumber <= 0) {
+      this.setState(() => {
+        return {
+          photoNumber: this.state.portraitCarousel.length - 1
+        }
+      })
+    } else {
+      this.setState((prevState) => {
+        return {
+          photoNumber: prevState.photoNumber - 1
+        }
+      })
     }
-
-    this.setState(
-      { photoNumber: photoNumber}
-    )
   }
 
   render() {
@@ -79,7 +89,7 @@ class ImageCarousel extends React.Component {
               fontSize: 14,
               marginLeft: 0,
             }
-          }} onClick={this.reversePhoto}>Previous</button>
+          }} onClick={this.handleReversePhoto}>Previous</button>
           <button css={{
             border: `none`,
             background: `rgba(200,200,200, 0.6)`,
@@ -90,7 +100,7 @@ class ImageCarousel extends React.Component {
               fontSize: 14,
               marginRight: 25,
             }
-          }}onClick={this.advancePhoto}>Next</button>
+          }}onClick={this.handleAdvancePhoto}>Next</button>
         </div>
         <figcaption css={{
           minHeight: `3.2rem`,
