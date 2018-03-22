@@ -6,18 +6,19 @@ import { css } from "glamor";
 
 import "../styles/formStyling.scss";
 
-export default () => (
+const ImageContainer = (props) => {
+  const imageClass = `imageContainer ${props.imageClass}`
+  return (
+    <div className={imageClass}>
+      <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/leif-erikson.svg" alt="Leif Ericson statue in Reykjavik, the discoverer of America for the Europeans" />
+    </div>
+  )
+}
 
-  <div className="contactContainer">
-    <Helmet title={`Contact Russell Schmidt via Email via Web Form`}/>
-    <div className="headerContainer">
-      <h1>Contact Me!</h1>
-    </div>
-    <div className="imageContainer leftImageContainer">
-      <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/leif-erikson.svg" alt="Leif Ericson statue in Reykjavik, the discoverer of America for the Europeans"/>
-    </div>
+const Form = (props) => {
+  return (
     <form action="https://formspree.io/russ@russellschmidt.net"
-      method="POST">
+        method="POST">
       <input className="contactFormInput" type="text" name="name" placeholder="Your Name"/>
       <input className="contactFormInput" type="email" name="_replyto" placeholder="you@mail.com"/>
       <select className="contactFormInput" name="reason">
@@ -31,8 +32,17 @@ export default () => (
       <input type="hidden" name="_next" value="//rusl.io/" />
       <div className="submitContainer"><input type="submit" value="Send"/></div>
     </form>
-    <div className="imageContainer rightImageContainer">
-      <img src="https://storage.googleapis.com/russellmschmidt-net-portfolio/leif-erikson.svg" alt="Leif Ericson statue in Reykjavik, the discoverer of America for the Europeans"/>
+  )
+}
+
+export default () => (
+  <div className="contactContainer">
+    <Helmet title={`Contact Russell Schmidt via Email via Web Form`}/>
+    <div className="headerContainer">
+      <h1>Contact Me!</h1>
     </div>
+    <ImageContainer imageClass="leftImageContainer" />
+    <Form />
+    <ImageContainer imageClass="rightImageContainer" />
   </div>
 );
