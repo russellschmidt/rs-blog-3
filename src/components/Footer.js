@@ -170,6 +170,30 @@ const copyrightParagraph = css({
   }
 });
 
+const IconSquare = (props) => {
+  return (
+    <p className={iconP}>
+      <a className={iconA} href={props.url} target="_blank"><img className={`${iconImg} ${iconSquare} ${iconGithub}`} src={props.imgUrl} alt={props.altText}/></a>
+    </p> 
+  )
+}
+
+const IconCircle = (props) => {
+  return (
+    <p className={iconP}>
+      <a className={iconA} href={props.url} target="_blank"><img className={`${iconImg} ${iconCircle} ${iconGithub}`} src={props.imgUrl} alt={props.altText}/></a>
+    </p> 
+  )
+}
+
+const FooterLink = (props) => {
+  return (
+    <p className={footerParagraph}> 
+      <Link className={navLink} to={props.url} css={{ }}>{props.urlName}</Link>
+    </p>
+  )
+}
+
 export default () => (
   <footer className={componentGrid}>
     <p css={{
@@ -182,48 +206,61 @@ export default () => (
         animation: `${slideItIn} 2s`,
       }
     }}><Link to="/contact-me/" className={navLink} css={{fontWeight: `600`,}}>Contact Me</Link></p>
-    <p className={iconP} >
-      <a className={iconA} href="https://linkedin.com/in/russellschmidt" target="_blank"><img className={`${iconImg} ${iconSquare} ${iconLinkedIn}`} src="https://s3.amazonaws.com/russell-personal/social-icons/linkedin.svg" alt="LinkedIn russellschmidt profile"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="https://github.com/russellschmidt" target="_blank"><img className={`${iconImg} ${iconCircle} ${iconGithub}`} src="https://s3.amazonaws.com/russell-personal/social-icons/github.svg" alt="GitHub russellschmidt profile"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="https://twitter.com/russ_eel" target="_blank"><img className={`${iconImg} ${iconCircle} ${iconTwitter}`} src="https://s3.amazonaws.com/russell-personal/social-icons/twitter.svg" alt="Twitter profile @russ-eel"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="https://www.instagram.com/russ_eel/" target="_blank"><img className={`${iconImg} ${iconSquare} ${iconInstagram}`} src="https://s3.amazonaws.com/russell-personal/social-icons/instagram.svg" alt="Instagram @russ_eel"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="https://plus.google.com/u/0/115439838839649200716" target="_blank"><img className={`${iconImg} ${iconCircle} ${iconGooglePlus}`}  src="https://s3.amazonaws.com/russell-personal/social-icons/googleplus.svg" alt="Google+ Google Plus everyone's favorite social site"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="http://snapchat.com/add/rms-one" target="_blank"><img className={`${iconImg} ${iconSquare} ${iconSnapchat}`} src="https://s3.amazonaws.com/russell-personal/social-icons/snapchat.svg" alt="Snapchat"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="http://steamcommunity.com/id/russ-eel/" target="_blank"><img className={`${iconImg} ${iconCircle} ${iconSteam}`} src="https://s3.amazonaws.com/russell-personal/social-icons/steam.svg" alt="Steam user russ-eel"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="https://www.pinterest.com/rschmidt0378/" target="_blank"><img className={`${iconImg} ${iconCircle} ${iconPinterest}`} src="https://s3.amazonaws.com/russell-personal/social-icons/pinterest.svg" alt="Pinterest rschmidt0378"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="https://www.codewars.com/users/russellschmidt" target="_blank"><img className={`${iconImg} ${iconCircle} ${iconCodeWars}`} src="https://s3.amazonaws.com/russell-personal/social-icons/codewars.svg" alt="CodeWars Russell Schmidt profile"/></a>
-    </p>
-    <p className={iconP}>
-      <a className={iconA} href="https://stackoverflow.com/users/1834685/russell-schmidt" target="_blank"><img className={`${iconImg} ${iconSquare} ${iconStackOverflow}`} src="https://s3.amazonaws.com/russell-personal/social-icons/stackoverflow.svg" alt="Stack Overflow Russell Schmidt profile"/></a>
-    </p>
-
-
+    <IconSquare
+      url="https://linkedin.com/in/russellschmidt" 
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/linkedin.svg"
+      altText="LinkedIn russellschmidt profile"
+    />
+    <IconCircle
+      url="https://github.com/russellschmidt" 
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/github.svg"
+      altText="GitHub russellschmidt profile"
+    />
+    <IconCircle
+      url="https://twitter.com/russ_eel"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/twitter.svg"
+      altText="Twitter profile @russ-eel"
+    />
+    <IconSquare
+      url="https://www.instagram.com/russ_eel/"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/instagram.svg"
+      altText="Instagram @russ_eel"
+    />
+    <IconCircle
+      url="https://plus.google.com/u/0/115439838839649200716"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/googleplus.svg"
+      altText="Google+ Google Plus everyone's favorite social site"
+    />
+    <IconSquare
+      url="http://snapchat.com/add/rms-one"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/snapchat.svg"
+      altText="Snapchat @rms-one"
+    />
+    <IconCircle
+      url="http://steamcommunity.com/id/russ-eel/"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/steam.svg"
+      altText="Steam user russ-eel"
+    />
+    <IconCircle
+      url="https://www.pinterest.com/rschmidt0378/"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/pinterest.svg"
+      altText="Pinterest rschmidt0378"
+    />
+    <IconCircle
+      url="https://www.codewars.com/users/russellschmidt"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/codewars.svg"
+      altText="CodeWars Russell Schmidt profile"
+    />
+    <IconSquare
+      url="https://stackoverflow.com/users/1834685/russell-schmidt"
+      imgUrl="https://s3.amazonaws.com/russell-personal/social-icons/stackoverflow.svg"
+      altText="Stack Overflow Russell Schmidt profile"
+    />
     <p className={copyrightParagraph}>
       &copy; {new Date().getFullYear()} Russell Schmidt - All Rights Reserved
     </p>
-    <p className={footerParagraph}>
-      <Link className={navLink} to="/privacy/" css={{ }}>Privacy Policy</Link>
-    </p>
-    <p className={footerParagraph}>
-      <Link className={navLink} to="/terms-of-service/" css={{ }}>Terms of Service</Link>
-    </p>
-    <p className={footerParagraph}> <Link className={navLink} to="/sitemap.xml" css={{ }}>Site Map</Link>
-    </p>
+    <FooterLink url="/privacy/" urlName="Privacy Policy" />
+    <FooterLink url="/terms-of-service/" urlName="Terms of Service" />
+    <FooterLink url="/sitemap.xml" urlName="Site Map" />
   </footer>
 );
