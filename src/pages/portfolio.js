@@ -7,13 +7,8 @@ import { css } from 'glamor';
 const portfolioLinkStyle = css({
   textDecoration: 'none',
   color: '#ccc',
-  display: 'flex',
-  flexDirection: 'column',
-  alignContent: 'center',
-  justifyContent: 'space-between',
   height: '100%',
   width: '100%',
-  border: '1px solid #e5e5e5',
   '&:hover': {
     color: '#fff',
     textDecoration: 'none',
@@ -36,6 +31,7 @@ const flexChild = css({
   height: 175,
   minWidth: 200,
   textAlign: 'center',
+  border: '1px solid #e5e5e5',
   '&:hover': {
     boxShadow: `0 2px 4px #4b4b4b`,
   },
@@ -52,7 +48,7 @@ const flexChildText = css({
   },
 });
 
-const bgMaker = (img) => (img ? `url("${img}") no-repeat` : `content-box radial-gradient(#c5c5c5, #fff)`);
+const bgMaker = (img) => (img ? `url("${img}") no-repeat` : `content-box radial-gradient(#d5d5d5, #fff)`);
 
 export default function PortfolioIndex({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
@@ -72,7 +68,6 @@ export default function PortfolioIndex({ data }) {
                 <Link className={portfolioLinkStyle}
                 to={post.frontmatter.path}>
                   <h3 className={flexChildText}>{post.frontmatter.title}</h3>
-                  <h4 className={flexChildText}>{post.frontmatter.date}</h4>
                 </Link>
               </div>
             ))}
