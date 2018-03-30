@@ -1,72 +1,81 @@
-import React from "react";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
-import g from "glamorous";
-import { css } from "glamor";
+import React from 'react';
+import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
+import g from 'glamorous';
+import { css } from 'glamor';
 
 const portfolioLinkStyle = css({
-  textDecoration: `none`,
-  color: `#ccc`,
-  "&:hover": {
-    color: `#fff`,
-    textDecoration: `none`
+  textDecoration: 'none',
+  color: '#ccc',
+  display: 'flex',
+  flexDirection: 'column',
+  alignContent: 'center',
+  justifyContent: 'space-between',
+  height: '100%',
+  width: '100%',
+  border: '1px solid #e5e5e5',
+  '&:hover': {
+    color: '#fff',
+    textDecoration: 'none',
   },
-  display: `flex`,
-  flexFlow: `column`,
-  alignContent: `space-around`,
-  justifyContent: `center`,
-  height: `100%`,
-  width: `100%`,
-  border: `1px solid #e3e3e3`
 });
 
 const flexContainer = css({
-  display: `flex`,
-  flexFlow: `row wrap`,
-  width: `100%`,
-  justifyContent: `space-around`,
+  display: 'flex',
+  flexFlow: 'row wrap',
+  padding: '1rem',
+  width: '100%',
+  justifyContent: 'space-around',
 });
 
 const flexChild = css({
-  margin: `5px`,
-  padding: `5px`,
+  margin: '5px',
+  padding: '5px',
   flexGrow: 1,
-  background: `#222`,
+  background: '#222',
   height: 175,
   minWidth: 200,
-  textAlign: `center`,
-  "&:hover": {backgroundColor: `#e5e5e5`},
+  textAlign: 'center',
+  '&:hover': {
+    boxShadow: `0 2px 4px #4b4b4b`,
+  },
 });
 
 const flexChildText = css({
-  textDecoration: `none`,
-  color: `#4b4b4b`,
-  "&:hover": {
-    color: `#6e6e6e`,
-    textDecoration: `none`,
+  display: 'inline',
+  textDecoration: 'none',
+  color: '#4b4b4b',
+  margin: 0,
+  '&:hover': {
+    color: '#888',
+    textDecoration: 'none',
   },
-})
+});
+
+const bgMaker = (img) => (img ? `url("${img}") no-repeat` : `content-box radial-gradient(#c5c5c5, #fff)`);
 
 export default function PortfolioIndex({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
       <h1>Portfolio</h1>
-      <Helmet title={`Portfolio Projects: Russell Schmidt`} />
+      <Helmet title="Portfolio Projects: Russell Schmidt" />
       <div className={flexContainer}>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
-          .map(({ node: post }) => {
-            return (
-              <div className={flexChild} key={post.id} css={{ background: `url("${post.frontmatter.image}")` }}>
+          .map(({ node: post }, i) => (
+              <div 
+                className={flexChild} 
+                key={i} 
+                css={{ background: `${bgMaker(post.frontmatter.image)}` 
+              }}>
                 <Link className={portfolioLinkStyle}
                 to={post.frontmatter.path}>
                   <h3 className={flexChildText}>{post.frontmatter.title}</h3>
                   <h4 className={flexChildText}>{post.frontmatter.date}</h4>
                 </Link>
               </div>
-            );
-          })}
+            ))}
       </div>
     </div>
   );
