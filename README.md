@@ -1,6 +1,8 @@
 # RS Blog 3
 Another iteration of my blog and portfolio, written in React using the Gatsby framework.
 
+Use Node 9.8.0
+
 ## Dependencies
 * gatsby-plugin-typography
 * typography-theme-sutro
@@ -18,3 +20,11 @@ Another iteration of my blog and portfolio, written in React using the Gatsby fr
 * gatsby-transformer-remark
 * gatsby-transformer-sharp
 * gh-pages
+
+## Repos
+```
+$ git push dev master
+
+$ yarn run jesucristo
+```
+
