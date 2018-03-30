@@ -7,10 +7,17 @@ import { css } from "glamor";
 const portfolioLinkStyle = css({
   textDecoration: `none`,
   color: `#ccc`,
-  "&:hover": {color: `#fff`},
-  display: `inline-block`,
+  "&:hover": {
+    color: `#fff`,
+    textDecoration: `none`
+  },
+  display: `flex`,
+  flexFlow: `column`,
+  alignContent: `space-around`,
+  justifyContent: `center`,
   height: `100%`,
-  width: `100%`
+  width: `100%`,
+  border: `1px solid #e3e3e3`
 });
 
 const flexContainer = css({
@@ -27,14 +34,17 @@ const flexChild = css({
   background: `#222`,
   height: 175,
   minWidth: 200,
-  "&:hover": {backgroundColor: `#444`},
   textAlign: `center`,
+  "&:hover": {backgroundColor: `#e5e5e5`},
 });
 
 const flexChildText = css({
   textDecoration: `none`,
-  color: `#ccc`,
-  "&:hover": {color: `#fff`},
+  color: `#4b4b4b`,
+  "&:hover": {
+    color: `#6e6e6e`,
+    textDecoration: `none`,
+  },
 })
 
 export default function PortfolioIndex({ data }) {
@@ -48,12 +58,11 @@ export default function PortfolioIndex({ data }) {
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
             return (
-              <div className={flexChild} key={post.id}>
+              <div className={flexChild} key={post.id} css={{ background: `url("${post.frontmatter.image}")` }}>
                 <Link className={portfolioLinkStyle}
                 to={post.frontmatter.path}>
                   <h3 className={flexChildText}>{post.frontmatter.title}</h3>
                   <h4 className={flexChildText}>{post.frontmatter.date}</h4>
-                  <p className={flexChildText}>{post.excerpt}</p>
                 </Link>
               </div>
             );
@@ -77,6 +86,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             type
+            image
           }
         }
       }
