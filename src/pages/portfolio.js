@@ -53,7 +53,7 @@ const flexChild = css({
 });
 
 const flexChildText = css({
-  color: '#725182',
+  color: '#453045',
   fontSize: '1rem',
   width: '100%',
   height: '100%',

@@ -15,7 +15,11 @@ Have you ever had a hard time making a decision? This app allows you to input a 
 React 16,
 Node 8.5,
 Express,
-SCSS
+SCSS,
+JavaScript,
+HTML5,
+CSS,
+Google Cloud
 
 ### Features
 Single Page Application,
@@ -23,7 +27,8 @@ React,
 Reactive Components,
 Persistant Local Storage,
 Node/Express,
-Google Font "Share Tech Mono"
+Google Font "Share Tech Mono", 
+Responsive design
 
 ### Style
 This is a fun blocky 8-bit inspired design with bright colors and high contrast for accesibility.
