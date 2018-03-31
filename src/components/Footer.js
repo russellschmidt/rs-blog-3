@@ -204,7 +204,8 @@ export default () => (
         animation: `${slideItIn} 2s`,
       },
     }}
-    ><Link to="/contact-me/" className={navLink} css={{ fontWeight: '600' }}>Contact Me</Link>
+    >
+      <Link to="/contact-me/" className={navLink} css={{ fontWeight: '600' }}>Contact Me</Link>
     </p>
     <IconSquare
       iconSpecific={iconLinkedIn}

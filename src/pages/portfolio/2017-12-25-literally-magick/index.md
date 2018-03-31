@@ -5,4 +5,18 @@ title: "Literally Magick"
 type: "portfolio"
 ---
 
-## <https://literallymagick.com>
+### Description
+<https://literallymagick.com>
+
+### Stack
+
+
+### Features
+
+
+### Style
+
+
+![](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/DecisionRoulette-1.png)
+![](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/DecisionRoulette-2.png)
+![](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/DecisionRoulette-3.png)
