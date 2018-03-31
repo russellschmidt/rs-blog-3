@@ -20,13 +20,16 @@ const flexContainer = css({
   flexFlow: 'row wrap',
   padding: '1rem',
   width: '100%',
-  justifyContent: 'space-around',
+  justifyContent: 'space-evenly',
+  alignItems: 'flex-start',
+  alignContent: 'space-around',
 });
 
 const flexChild = css({
   margin: '5px',
   padding: '5px',
   flexGrow: 1,
+  flexBasis: '30%',
   background: '#222',
   height: 175,
   minWidth: 200,
@@ -34,14 +37,16 @@ const flexChild = css({
   border: '1px solid #e5e5e5',
   '&:hover': {
     boxShadow: `0 2px 4px #4b4b4b`,
+    cursor: 'pointer',
   },
 });
 
 const flexChildText = css({
-  display: 'inline',
+  width: '90%',
+  height: '100%',
   textDecoration: 'none',
   color: '#4b4b4b',
-  margin: 0,
+  margin: '0 auto',
   '&:hover': {
     color: '#888',
     textDecoration: 'none',

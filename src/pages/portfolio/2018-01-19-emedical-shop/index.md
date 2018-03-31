@@ -3,6 +3,7 @@ path: "/portfolio/emedical-shop/"
 date: "2018-01-19T17:12:33.962Z"
 title: "emedical.shop"
 type: "portfolio"
+image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg"
 ---
 
 ### Description
