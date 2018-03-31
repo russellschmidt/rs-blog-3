@@ -6,11 +6,9 @@ import { css } from 'glamor';
 
 const portfolioLinkStyle = css({
   textDecoration: 'none',
-  color: '#ccc',
   height: '100%',
   width: '100%',
   '&:hover': {
-    color: '#fff',
     textDecoration: 'none',
   },
 });
@@ -28,12 +26,10 @@ const flexContainer = css({
 const flexChild = css({
   margin: '5px',
   padding: '5px',
-  flexGrow: 1,
-  flexBasis: '30%',
   background: '#222',
   height: 175,
-  minWidth: 200,
-  textAlign: 'center',
+  flex: '1 0 30%',
+  textAlign: 'left',
   border: '1px solid #e5e5e5',
   '&:hover': {
     boxShadow: `0 2px 4px #4b4b4b`,
@@ -42,14 +38,16 @@ const flexChild = css({
 });
 
 const flexChildText = css({
-  width: '90%',
+  color: '#96879E',
+  fontSize: '1rem',
+  width: '100%',
   height: '100%',
   textDecoration: 'none',
-  color: '#4b4b4b',
+  paddingLeft: '0.5rem',
   margin: '0 auto',
   '&:hover': {
-    color: '#888',
     textDecoration: 'none',
+    color: '#632A7F',
   },
 });
 
