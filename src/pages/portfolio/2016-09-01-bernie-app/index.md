@@ -8,6 +8,8 @@ type: "portfolio"
 ### Description
 [RIP http://bernieapp.com](http://bernieapp.com)
 
+Dating app for Bernie Sanders supporters during the 2016 Democratic primary. I did the styling and copy on the website.
+
 ### Stack
 
 
@@ -15,6 +17,9 @@ type: "portfolio"
 
 
 ### Style
+
+### Repo
+RIP, this project is no more.
 
 
 ![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg)

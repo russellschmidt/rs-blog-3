@@ -30,6 +30,8 @@ Heroku
 ### Style
 Friendly, calming medical app landing page designed to build up a beta release mailing list.
 
+### Repo
+<https://github.com/russellschmidt/good-doctor-web>
 
 ![The Good Doctor App Landing](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/TheGoodDoctorApp-1.png)
 ![The Good Doctor App Learn More](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/TheGoodDoctorApp-2.png)

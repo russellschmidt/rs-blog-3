@@ -16,6 +16,8 @@ type: "portfolio"
 
 ### Style
 
+### Repo
+This is a privately hosted site using native PHP.
 
 ![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg)
 ![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-2.jpg)

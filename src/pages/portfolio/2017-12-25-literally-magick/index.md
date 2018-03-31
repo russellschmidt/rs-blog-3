@@ -30,6 +30,9 @@ Google Fonts
 ### Style
 This site was designed to be clean and minimalist to reflect the gorgeous streamlined product packaging for the magick spell kits. 
 
+### Repo
+This site is privately hosted on Shopify
+
 ![](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/LiterallyMagick-1.png)
 ![](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/LiterallyMagick-2.png)
 ![](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/LiterallyMagick-3.png)

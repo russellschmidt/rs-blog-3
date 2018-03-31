@@ -16,6 +16,10 @@ type: "portfolio"
 
 ### Style
 
+### Repo
+<https://github.com/russellschmidt/my-first-bot>
+<https://github.com/russellschmidt/weather-bot>
+
 
 ![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg)
 ![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-2.jpg)

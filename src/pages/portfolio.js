@@ -69,11 +69,11 @@ const flexChildText = css({
 
 const flexChildTextFirstLetter = css({
   display: 'inline-block',
-  animation: `${showUp} 7s 1 ease-in-out`,
+  animation: `${showUp} 5s 1 ease-in-out`,
 })
 
 const flexChildTextRest = css({
-  animation: `${slideIn} 7s 1 ease-out`,
+  animation: `${slideIn} 5s 1 ease-out`,
 })
 
 const bgMaker = (img) => (img ? `url("${img}") no-repeat` : `content-box radial-gradient(#d5d5d5, #fff)`);

@@ -13,10 +13,13 @@ image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/r
 
 
 ### Features
-
+For Profit,
+ecommerce
 
 ### Style
 
+### Repo
+Sorry. Private.
 
 ![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg)
 ![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-2.jpg)

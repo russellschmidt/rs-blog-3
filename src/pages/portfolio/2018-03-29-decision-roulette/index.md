@@ -33,6 +33,9 @@ Responsive design
 ### Style
 This is a fun blocky 8-bit inspired design with bright colors and high contrast for accesibility.
 
+### Repo
+<https://github.com/russellschmidt/decision_roulette>
+
 ![Decision Roulette App Page](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/DecisionRoulette-1.png)
 ![Decision Roulette App With Options Added](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/DecisionRoulette-2.png)
 ![Decision Roulette App Decision Made](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/DecisionRoulette-3.png)
