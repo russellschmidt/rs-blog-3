@@ -5,4 +5,18 @@ title: "Countdown to Dublin"
 type: "portfolio"
 ---
 
-## <https://dashboard.heroku.com/apps/dublin-countdown-rs>
+### Description
+<https://dashboard.heroku.com/apps/dublin-countdown-rs>
+
+### Stack
+
+
+### Features
+
+
+### Style
+
+
+![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg)
+![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-2.jpg)
+![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-3.jpg)

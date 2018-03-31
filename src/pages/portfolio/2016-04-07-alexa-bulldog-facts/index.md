@@ -5,4 +5,18 @@ title: "Alexa Skill - FunBulldogFacts"
 type: "portfolio"
 ---
 
-## <https://www.echoskillstore.com/funBulldogFacts/B01DZHDMDG>
+### Description
+<https://www.echoskillstore.com/funBulldogFacts/B01DZHDMDG>
+
+### Stack
+
+
+### Features
+
+
+### Style
+
+
+![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg)
+![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-2.jpg)
+![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-3.jpg)
