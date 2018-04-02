@@ -25,4 +25,4 @@ Voice activated
 <https://github.com/russellschmidt/amazon-trivia>
 
 ![Amazon Alexa Device Family](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/Amazon_Echo/amazon-alexa-img-480x480.jpg)
-![California Trivia](hhttps://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/Amazon_Echo/california-trivia-1.png)
+![California Trivia](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/Amazon_Echo/california-trivia-1.png)
