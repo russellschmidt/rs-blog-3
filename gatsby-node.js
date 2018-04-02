@@ -2,8 +2,8 @@ const path = require('path');
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
-  const portfolioPostTemplate = path.resolve(`src/templates/portfolio-post.js`);
+  const blogPostTemplate = path.resolve('src/templates/blog-post.js');
+  const portfolioPostTemplate = path.resolve('src/templates/portfolio-post.js');
 
   return graphql(`{
     allMarkdownRemark(
@@ -20,7 +20,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             path
             title
             type
-            image
+            image: string | null
           }
         }
       }
