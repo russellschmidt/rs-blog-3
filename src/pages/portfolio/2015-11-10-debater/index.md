@@ -11,6 +11,8 @@ image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/d
 
 This is a rough idea for an app that allows users to engage in practice Lincoln-Douglas style debate rounds. I was on the speech and debate team in high school and wondered why we did not have tools online to help us hone our craft. The idea is that this tool can help users "flow" (take notes on the debate, an important part of debating since much of the debate is extemperaneous) and also practice applying logic to opposing arguments. Ideally this tool can help them construct their own debate arguments and understand how to use the value proposition to drive their stance on any given issue.
 
+Of course the best part of this app is the homepage hero image of two old timey debaters probably arguing over temperance or how many angels can dance on the head of a pin.
+
 ### Stack
 Ruby on Rails 5.0,
 JavaScript,
