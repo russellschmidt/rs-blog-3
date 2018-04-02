@@ -3,7 +3,7 @@ path: "/portfolio/bernie-app/"
 date: "2016-09-01-01T17:12:33.962Z"
 title: "Bernie App"
 type: "portfolio"
-image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/BernieApp/bernie_home_600x596.png"
+image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/BernieApp/bernie_app_600x596-header.png"
 ---
 
 ### Description
