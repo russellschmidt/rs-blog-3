@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Russell Schmidt\'s developer blog and portfolio',
+    title: 'rusl.io: Russell Schmidt\'s developer blog and portfolio',
     author: 'Russell Schmidt',
     description: 'Portfolio, blog, and biography of the world\'s most incredible Russell Schmidt from Los Angeles, CA, USA.',
     siteUrl: 'https://www.rusl.io',
