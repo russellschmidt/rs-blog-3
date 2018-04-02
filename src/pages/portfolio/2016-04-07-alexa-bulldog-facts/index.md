@@ -3,7 +3,7 @@ path: "/portfolio/alexa-bulldog-facts/"
 date: "2016-04-07-01T17:12:33.962Z"
 title: "Alexa Skill - FunBulldogFacts"
 type: "portfolio"
-image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/Amazon_Echo/amazon-alexa-img-480x480.jpg)"
+image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/Amazon_Echo/amazon-alexa-img-480x480.jpg"
 ---
 
 ### Description
