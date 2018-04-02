@@ -16,7 +16,7 @@ type: "portfolio"
 
 ### Style
 
-### Repo
+### Repos
 <https://github.com/russellschmidt/my-first-bot>
 <https://github.com/russellschmidt/weather-bot>
 
