@@ -34,6 +34,6 @@ Clean, flat style that Foundation is famous for. Colors are pleasant enough.
 ### Repo
 <https://github.com/russellschmidt/react-timer>
 
-![React Time 1](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/react-timer-1.png)
-![React Time 2](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/react-timer-2.png)
-![React Time 3](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/react-timer-3.png)
+![React Time Timer](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/react-timer-1.png)
+![React Time stopwatch ready to go](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/react-timer-2.png)
+![React Time stopwatch in action](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/react-timer-3.png)
