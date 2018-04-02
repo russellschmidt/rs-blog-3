@@ -3,6 +3,7 @@ path: "/portfolio/debater/"
 date: "2015-11-10T02:12:33.962Z"
 title: "Debater"
 type: "portfolio"
+image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/debater-1.png"
 ---
 
 ### Description
@@ -22,9 +23,10 @@ SCSS,
 PostgreSQL
 
 ### Features
-Login/out,
+Authenticated logins with Devise,
 Encrypted user information,
-Posts and comments
+Posts and comments,
+Foundation front-end
 
 ### Style
 Clean with an orange-black Halloween palette I chose to provide energy without being too over the top. Orange remains an unusual choice for a website, but it is distinctive.
@@ -32,6 +34,8 @@ Clean with an orange-black Halloween palette I chose to provide energy without b
 ### Repo
 <https://github.com/russellschmidt/debater>
 
-![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-1.jpg)
-![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-2.jpg)
-![default](https://storage.googleapis.com/russellmschmidt-net-portfolio/portraits/russell-portrait-3.jpg)
+![Debater Home](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/debater-1.png)
+![Debater Login](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/debater-2.png)
+![Debater Index](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/debater-3.png)
+![Debater Detail](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/debater-4.png)
+![Debater Detail 2](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/debater-5.png)
