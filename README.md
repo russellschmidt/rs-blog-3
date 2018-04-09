@@ -1,7 +1,7 @@
 # RS Blog 3
-Another iteration of my blog and portfolio, written in React using the Gatsby framework.
+Another iteration of my blog and portfolio, this time using React, Gatsby and GraphQL.
 
-Use Node 8.5.0
+Node 8.5.0
 
 ## Dependencies
 * gatsby-plugin-typography
