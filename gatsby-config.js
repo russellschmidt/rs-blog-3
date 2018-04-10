@@ -100,11 +100,13 @@ module.exports = {
                   edges {
                     node {
                       excerpt
+                      id
                       html
-                      path
                       frontmatter {
                         title
-                        date
+                        date(formatString: "MMMM DD, YYYY")
+                        path
+                        type
                       }
                     }
                   }
