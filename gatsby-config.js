@@ -101,7 +101,7 @@ module.exports = {
                     node {
                       excerpt
                       html
-                      fields { path }
+                      path
                       frontmatter {
                         title
                         date
