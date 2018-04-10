@@ -85,8 +85,8 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.path,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.path,
+                  url: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
+                  guid: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 });
               });
@@ -105,6 +105,8 @@ module.exports = {
                       frontmatter {
                         title
                         date(formatString: "MMMM DD, YYYY")
+                        path
+                        type
                       }
                     }
                   }
