@@ -105,8 +105,6 @@ module.exports = {
                       frontmatter {
                         title
                         date(formatString: "MMMM DD, YYYY")
-                        path
-                        type
                       }
                     }
                   }
