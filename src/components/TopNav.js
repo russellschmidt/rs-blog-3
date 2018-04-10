@@ -70,7 +70,7 @@ const navLink = css({
     animation: `${pulsate} 2s ease-in-out infinite`,
   },
   "@media (max-width: 768px)": {
-    fontSize: rhythm(2/5),
+    fontSize: rhythm(1/3),
     textAlign: `center`,
     gridColumn: `span 3`,
   },

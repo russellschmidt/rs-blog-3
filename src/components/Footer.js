@@ -155,17 +155,27 @@ const footerParagraph = css({
   },
 });
 
+const leftFooterParagraph = css({
+  textAlign: 'left',
+})
+
 const copyrightParagraph = css({
-  gridColumn: 'span 3',
-  fontSize: 8,
-  textAlign: 'right',
+  gridColumn: 'span 12',
+  fontSize: 5,
+  textAlign: 'center',
   textTransform: 'none',
+  position: 'absolute',
+  left: '1rem',
+  bottom: -30,
   '@media (min-width: 768px)': {
+    position: 'relative',
+    bottom: 'inherit',
+    left: 'inherit',
     fontSize: 12,
     fontWeight: 600,
     textAlign: 'left',
     margin: 'auto 0',
-    gridColumn: 'span 6',
+    gridColumn: 'span 4',
     animation: `${slideItIn} 2s`,
   },
 });
@@ -187,7 +197,7 @@ const IconCircle = props => (
 );
 
 const FooterLink = props => (
-  <p className={footerParagraph}>
+  <p className={props.style}>
     <Link className={navLink} to={props.url} css={{ }}>{props.urlName}</Link>
   </p>
 );
@@ -205,7 +215,7 @@ export default () => (
       },
     }}
     >
-      <Link to="/contact-me/" className={navLink} css={{ fontWeight: '600' }}>Contact Me</Link>
+      <Link to="/contact-me/" className={navLink} css={{ fontWeight: '600' }}>Email Me</Link>
     </p>
     <IconSquare
       iconSpecific={iconLinkedIn}
@@ -270,8 +280,9 @@ export default () => (
     <p className={copyrightParagraph}>
       &copy; {new Date().getFullYear()} Russell Schmidt - All Rights Reserved
     </p>
-    <FooterLink url="/privacy/" urlName="Privacy Policy" />
-    <FooterLink url="/terms-of-service/" urlName="Terms of Service" />
-    <FooterLink url="/sitemap.xml" urlName="Site Map" />
+    <FooterLink style={`${footerParagraph} ${leftFooterParagraph}`} url="/privacy/" urlName="Privacy Policy" />
+    <FooterLink style={footerParagraph} url="/terms-of-service/" urlName="Terms of Service" />
+    <FooterLink style={footerParagraph} url="/rss.xml" urlName="RSS Feed" />
+    <FooterLink style={footerParagraph} url="/sitemap.xml" urlName="Site Map" />
   </footer>
 );
