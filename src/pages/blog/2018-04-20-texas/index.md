@@ -22,3 +22,10 @@ Two ideas I am cribbing from fellow students at USC's Design @ USC program:
 
 1. Make each project into a website, even if only a placeholder
 2. Do a directed research project that will give me time to focus on building an app
+
+I think I kept my head down this semester just slogging through React tutorials and making sure I didn't flunk out of Grad school. Now that I know I can perform and do the work, I can start to dive back into making cool stuff again and not just maintaining customer sites.
+
+Some of the lifestyle changes I want to make include:
+1. Daily Yoga
+2. More intense training for my half marathon in November
+3. Shutting down for the night at 10pm
