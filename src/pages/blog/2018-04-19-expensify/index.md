@@ -11,3 +11,11 @@ At the time of this writing, this is a super rough version without much CSS, but
 
 It is a simple expense tracking app that is really just a showpiece for learning how to think about reactive components, data passed to Redux, and 
 [expensify](http://quizzical-montalcini-41a63b.netlify.com/)
+
+I took a right turn from the tutorial in using Netlify. It is a very sweet, beautiful option compared to Heroku.
+
+Current list of things to master I am interested in.
+
+1. React unit testing and reactive component testing with Jest - I have just scratched the surface
+2. Node. So much more to learn.
+3. GraphQL. 
