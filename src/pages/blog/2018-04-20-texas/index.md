@@ -1,7 +1,7 @@
 ---
 path: "/blog/texas/"
 date: "2018-04-20T16:20:11.200Z"
-title: "texas"
+title: "Texas"
 type: "blog"
 ---
 

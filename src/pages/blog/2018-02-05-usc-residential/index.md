@@ -11,4 +11,4 @@ Just completed the Design@USC IYA Residential and it was exhausting but pretty g
 
 Here is some information: [Integrative Practices Residential](https://design.usc.edu/academics/course-sequence/integrative-practices-residential/). Basically, it was like a hackathon for design, in this case, a little bit of product design, some interaction design, some experience design. We were designing a museum exhibit which ends up touching every piece of design, proving the program's design cleverness. 
 
-Side note: USC cares deeply about the user experience of its students. There is an on-campus Starbucks and pretty great dining options. The on-campus bar was another surprise.
+>Side note: USC cares deeply about the user experience of its students. There is  an on-campus Starbucks and pretty great dining options. The on-campus bar was another surprise.
