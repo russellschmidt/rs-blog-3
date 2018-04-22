@@ -5,4 +5,9 @@ title: "Texas 2"
 type: "blog"
 ---
 
-Today I am taking a break from coding for the first time in what feels like years but is realistically the first time since my honeymoon last summer. I am going to Austin, Texas to see friends and ideally pick up some cowboy boots and a new appreciation for barbecued meats despite my vegan soul's earnest desire to live animal-free.
+The Austin Final Report.
+
+Austin, Texas has a lot going for it. The food was great, the place looks like it was built 15 minutes ago, there is a lot of construction, and the weather for our time here was pretty fantastic. 
+
+In thinking more about what I would like the coming semester to look like, I have some lifestyle choices I need to make also.
+
