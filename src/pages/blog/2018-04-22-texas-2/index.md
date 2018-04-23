@@ -9,6 +9,10 @@ The Austin Final Report.
 
 Austin, Texas has a lot going for it. The food was great, the place looks like it was built 15 minutes ago, there is a lot of construction, and the weather for our time here was pretty fantastic. The locals proved friendly and the architecture of the LBJ Presidential Library was pretty cool. 
 
+![LBJ Presidential Library](https://storage.googleapis.com/russellmschmidt-net-portfolio/portfolio/lbj_library.jpg)
+
+It has an interesting Eastern and Sith influence. It is a bold building, looking assertively out of place, marking itself like a sculpture or a mausoleum as much as a library and museum.
+
 I am revising the personal goals a bit:
 
 1. 15 week yoga challenge - 45 classes in 15 weeks
