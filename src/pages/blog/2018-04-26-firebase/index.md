@@ -5,6 +5,8 @@ title: "Firebase"
 type: "blog"
 ---
 
+![](https://storage.googleapis.com/russellmschmidt-net-portfolio/blogPosts/check-it-out-steve-brule.png)
+
 Learning to use Firebase with React has been super fun, and is a great primer on promises and callbacks if you have not already been initiated into their mysterious ways. I see the value in goofy exercises that cover fun things like addition and subtraction - we all need to run before we can walk - but jumping into using Firebase AND applying promises right away makes so much sense. 
 
 ```javascript
@@ -71,4 +73,4 @@ With SET and UPDATE, we can CREATE and UPDATE. REMOVE (or passing SET with null 
 
 I found the [Firebase docs](https://firebase.google.com/docs/reference/) pretty helpful.
 
-![](https://imgur.com/gallery/i2O93)
+![](https://storage.googleapis.com/russellmschmidt-net-portfolio/blogPosts/check-it-out-steve-brule.png)
