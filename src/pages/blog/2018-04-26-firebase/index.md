@@ -69,3 +69,6 @@ The big method names we need for CRUD database operations are...
 
 With SET and UPDATE, we can CREATE and UPDATE. REMOVE (or passing SET with null values) can delete. ONCE and ON allow for READ operations either as a one time or a push on change subscription. OFF allows you to turn off subscriptions. And PUSH is a special CREATE for arrays, since Firebase does not support arrays. PUSH creates a object with a key of a unique ID in lieu of an index number.
 
+I found the [Firebase docs](https://firebase.google.com/docs/reference/) pretty helpful.
+
+![](https://imgur.com/gallery/i2O93)
