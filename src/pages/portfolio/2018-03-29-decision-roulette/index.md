@@ -25,7 +25,7 @@ Google Cloud
 Single Page Application,
 React,
 Reactive Components,
-Persistant Local Storage,
+Persistent Local Storage,
 Node/Express,
 Google Font "Share Tech Mono", 
 Responsive design
