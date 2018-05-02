@@ -7,7 +7,7 @@ image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/xpensr-expe
 ---
 
 ### Description
-<http://xpensr.netlify.com/dashboard>
+<http://xpensr.netlify.com>
 
 Based on the second project in this [tutorial](https://www.udemy.com/react-2nd-edition/learn/v4/overview) from Andrew Mead, one of my favorite Udemy instructors. This is a fun expense tracking app that is secure and stores your data persistently.
 
