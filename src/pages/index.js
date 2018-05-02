@@ -6,14 +6,12 @@ import { css } from "glamor";
 
 import {rhythm} from "../utils/typography";
 
-let bodyContainer = css({
-
-});
-
+import AnimationPage from "../components/AnimationPage";
 
 export default () => (
-  <div className={bodyContainer}>
+  <div>
     <Helmet title={`Welcome to Russell Schmidt's home on the internet`}/>
     <h1>Welcome</h1>
+    <AnimationPage />
   </div>
 );

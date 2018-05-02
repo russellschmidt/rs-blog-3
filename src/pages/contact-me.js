@@ -4,8 +4,6 @@ import Helmet from "react-helmet";
 import g from "glamorous";
 import { css } from "glamor";
 
-import "../styles/formStyling.scss";
-
 const ImageContainer = (props) => {
   const imageClass = `imageContainer ${props.imageClass}`
   return (

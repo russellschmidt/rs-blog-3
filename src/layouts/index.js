@@ -4,6 +4,8 @@ import { css } from "glamor";
 import Footer from "../components/Footer";
 import TopNav from "../components/TopNav";
 
+import '../styles/styles.scss'
+
 let container = css({
   margin: `0 auto`,
   maxWidth: 1280,
