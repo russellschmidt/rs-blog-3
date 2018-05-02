@@ -1,0 +1,25 @@
+.animation-page {
+  padding: 5rem;
+}
+
+.animation-page__title {
+  &:hover {
+    color: dodgerblue;
+  }
+  &:active {
+    color: yellow;
+  }
+}
+
+.animation-page__button {
+  &:hover {
+    color: orange;
+  }
+  &:focus {
+    background: dodgerblue;
+  }
+  &:active {
+    color: red;
+    padding: 2rem;
+  }
+}
