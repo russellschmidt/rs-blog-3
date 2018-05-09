@@ -6,12 +6,12 @@ import { css } from "glamor";
 
 import {rhythm} from "../utils/typography";
 
-import AnimationPage from "../components/AnimationPage";
+import GameStart from "../components/GameStart";
 
 export default () => (
   <div>
     <Helmet title={`Welcome to Russell Schmidt's home on the internet`}/>
     <h1>Welcome</h1>
-    <AnimationPage />
+    <GameStart />
   </div>
 );
