@@ -27,7 +27,6 @@ class GameStart extends React.Component {
     )
   }
   startGame() {
-    this.setState({showGame: true})
     return (
       <div>
         <GamePage />

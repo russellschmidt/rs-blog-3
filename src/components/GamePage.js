@@ -1,10 +1,14 @@
 import React from 'react'
+import GamePageTitle from './GamePageTitle'
 
 class GamePage extends React.Component {
+  constructor(props){
+    super(props)
+  }
   render () {
     return (
-      <div>
-        <h3>The Game</h3>
+      <div className="game-page__main">
+        <GamePageTitle />
       </div>
     )
   }

@@ -1,0 +1,33 @@
+.game-page__main {
+
+}
+.game-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.game-title__text {
+  padding: 0 1rem;
+  margin: 0;
+  line-height: 1.1;
+}
+.game-title__reverse-1 {
+  unicode-bidi:bidi-override;
+  direction:rtl;
+
+}
+.game-title__reverse-2 {
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  unicode-bidi:bidi-override;
+  direction:rtl;
+}
+.game-title__reverse-3 {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
