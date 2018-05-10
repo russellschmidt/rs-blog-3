@@ -7,7 +7,7 @@ image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/xpensr-expe
 ---
 
 ### Description
-<https://snarkanoid.herokuapp.com/>
+<https://snarkanoid.herokuapp.com>
 
 I wanted to play with HTML Canvas and here is a block breaking Arkanoid clone. 
 
