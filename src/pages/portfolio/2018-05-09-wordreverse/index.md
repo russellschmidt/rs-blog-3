@@ -11,6 +11,8 @@ image: "https://storage.googleapis.com/russellmschmidt-net-portfolio/USC_Design/
 
 Inspired by a section of Marshall McLuhan's classic 'The Medium is the Massage' which we read in Storytelling class in my USC Master's program, I created a word de-scrambling game. I think I will dive into the thought behind this and the challenging quote a bit more on a blog post, but needless to say, this is a challenging game intended in part as a place to practice React, JS and SPAs and some very intentionally droll design choices.
 
+Want to explore my thinking on this? Me neither. But for the curious, [click here](/blog/marshall-mcluhan/)
+
 ### Stack
 React 16,
 Node 8.5,
