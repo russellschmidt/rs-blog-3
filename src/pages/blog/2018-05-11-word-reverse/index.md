@@ -31,4 +31,9 @@ However, the unnatural bit where I circle back to agree with Dewey's general thr
 
 To explore my game that argues with the great John Dewey and also McLuhan by extension (though is an included quote without direct contextual commentary an endorsement?) [just click here](/portfolio/wordreverse/)
 
-Ultimately, to prove my point, I made a video game - fun! - that 
+Ultimately, to prove my point, I made a video game - fun! - that allows you to unscramble words reversed in the exact way that the page is reversed in the book - right to left and then 180 degrees. This produces the child-like sensation of sounding out works and guessing, though the words are generally 10 letters long which is substantially more sophisticated than Dr Seuss. Some of the words are obvious, and many are compound words that can be teased out even if there meaning is confusing. 
+
+In addition, I created a 5 second timer which restricts not just the guessing time but the brain activity. There is, as McLuhan would approve in terms of demonstration, no time for much imagination or fun. The puzzles appear rapidly and relentlessly. There is little quarter given for users who are graded not on points, with the infinite possibility of accumulation, but on accuracy, where one can never truly achieve 100% again once it is lost.
+
+### Boss
+The game has two tiers of feedback. Above 90% accuracy, there is a positive reinforcement and encouragement from a man extending a hand. From 90-80% there is a randomized image of a crooked CEO, from Dick Fuld to the Unabomber, tsk-tsking the player. This is designed to remind the player about the winners and losers in the modern economy, and the deificiation of the executive that makes admitting mistakes impossible in many organizations.
