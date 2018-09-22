@@ -21,4 +21,4 @@ And four P's
 4. Promotion
 
 ## Market Segmentation
-We want to divide our customers into distinct groups based on shared characteristics - take a heterogenous market and divide it into homogenous populations. This helps us serve these populations better and 
+We want to divide our customers into distinct groups based on shared characteristics - take a heterogenous market and divide it into homogenous populations. This helps us serve these populations better.
