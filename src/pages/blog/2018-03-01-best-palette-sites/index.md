@@ -13,6 +13,9 @@ I like palette picker sites on the internet because they not just make very prec
 * <http://www.dwr.com>
 * <http://www.latimes.com/>
 
+#### First, get your foundation built
+So you want to break away from the same old palettes you always gravitate towards? Well, before diving in, it is worth giving <https://www.jenreviews.com/color-meaning/> a read. Understanding the cultural associations of color and the psychology behind color choices is important for many projects, and can help narrow your choices and avoid some color choice land mines. For example, don't use the virginal white of Western weddings for a bridal wear project with an East Asian clientele's red-clad brides, and try not to make your financial website pink without good reason. 
+
 #### So here are my favorite color pickers
 * [Coolors](https://coolors.co) - hit space bar and color roulette wheel spins a new combo. Chatroulette but with colors.
 * [Color Supply](http://colorsupplyyy.com/app/) - This is more how my brain works - pick a main color and then let a robot assistant show me some options. I freaking love this one. It is just so pretty.
