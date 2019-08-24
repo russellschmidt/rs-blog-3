@@ -1,6 +1,6 @@
 ---
 path: "/blog/marketing-and-market-segmentation/"
-date: "2018-05-10 3T16:20:11.200Z"
+date: "2018-05-08T16:20:11.200Z"
 title: "Thoughts on Market Segmentation and Marketing"
 type: "blog"
 ---
@@ -33,10 +33,10 @@ Analyze a target market's attractiveness - is there a rubric for this?
 5. Ability to manage/execute
 
 #### Differential Advantage Analysis
-Look at each of these 5 topics and judge strength and weaknesses. Dive into specifics at each - for example, reseach and development on the axis of finance a la Testa.
+Look at each of these 5 topics and judge strength and weaknesses.
 
 #### Positioning
-Positionging allows sellers ro esponsd to customer complaines directly.
+Positioning allows sellers to respond to customer complaints directly.
 
 Positioning answers three questions
 1. Who are the sellers
@@ -44,9 +44,9 @@ Positioning answers three questions
 3. Why is this proudct the best - key differentaiators
 
 ####  Positioning statement
-'Our product has a specific claim among all competitors because of X.'pla
+'Our product has a specific claim among all competitors because of X.'
 
-The four P 's are a powerful guideline for implementing successful business plans. These "P's" are ; 
+The four P 's are a powerful guideline for implementing successful business plans. These "P's" are:
 
 1. product
 2. price 
