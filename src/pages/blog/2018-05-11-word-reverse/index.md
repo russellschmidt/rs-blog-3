@@ -1,6 +1,6 @@
 ---
 path: "/blog/marshall-mcluhan/"
-date: "2018-05-10T16:20:11.200Z"
+date: "2018-05-11T16:20:11.200Z"
 title: "Marshall McLuhan"
 type: "blog"
 ---
